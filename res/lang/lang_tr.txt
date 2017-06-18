@@ -18,11 +18,22 @@ GRAPHICS = Grafik
 MUSIC = Müzik
 SFX = Ses Efektleri
 FULLSCREEN = Tam Ekran
+VSYNC = VSync
+LONGCLICK_MODE = Longclick mode
+LONGCLICK_MODE_EXPLANATION = Emulate right-click with long-down-click of left mouse button or touch
+WINDOW_MODE_RESOLUTION = Window mode resolution
+INPUT = Input
+USE_TOUCH_INPUT = Use touch input 
+USE_TOUCH_INPUT_EXPLANATION = First click places mouse cursor, the following count as clicks. Cursor-repositioning if distance between click positions is too great.
+MOVE_INSTEAD_CLICK_RADIUS = Move instead click radius
 MULTIPLAYER = Çoklu Oyuncu
+SINGLEPLAYER = Singleplayer
 RENDERER = İşleyici
 SOUND_ENGINE = Ses Motoru
 DEFAULTS_FOR_NEW_GAME= "Yeni Oyun" için Varsayılanlar
 PORT_ONLINEGAME = Internet Oyunu için Port
+IN_ROOMS_SLOWDOWN_TIME_TO = In rooms slowdown time to
+GAME_SPEED_IN_ROOMS = Game speed in rooms
 
 STARTHINT_TITLE1 = Program Planı
 STARTHINT_TEXT1 = CTRL Tuşu, Programı Plana birden çok kez yerleştirmenizi sağlar. SHIFT Tuşu, Dizinin bir sonraki bölümünü yerleştirmenizi sağlar.
@@ -31,16 +42,24 @@ STARTHINT_TEXT2 = Yayının başarısı, programın Kalite/Reyting değerine ço
 STARTHINT_TITLE3 = Reklam Kontratları
 STARTHINT_TEXT3 = Reklam Kontratları, en az izleyici sınırı ile tanımlanır. Reklamın getirisi ve cezası, kanalın ulaşabileceği en fazla izleyici potansiyeli ile bağlantılıdır. \n\n Bu nedenle bazen yeni istasyon anlaşması yapmadan önce kontratları imzalamak iyi olabilir.
 
-CLOSES_AT_TIME = %TIME% olmadan önce...
-CLOSES_AT_DAY = Kapatır: %TIME%
+MESSAGE_CLOSES_AT_TIME = Message closes at %TIME%
+MESSAGE_CLOSES_AT_DAY = Message closes at %TIME%
 
 GAME_TITLE = Oyun Başlığı
 START_YEAR = Başlangıç Yılı
+DAY_OF_YEAR = Day of year
 
 GAME_TIME = Oyun Zamanı
 GAMEDAY = Oyun Günü
 BETTY_FEELINGS = Betty'nin sizin hakkınızdaki hisleri
 THERE_IS_NO_LOVE_IN_THE_AIR_YET = Henüz havada aşk kokusu yok... ;)
+BETTY_KNOWS_WHO_YOU_ARE = Betty knows who you are
+BETTY_SEEMS_TO_LIKE_YOU = Betty seems to like you
+BETTY_SEEMS_TO_LIKE_YOU_A_BIT_MORE = Betty seems to like you a bit more
+BETTY_LOVES_YOU = Betty loves you
+BETTY_REALLY_LOVES_YOU = Betty really loves you
+MENU = Menu
+OPEN_MENU = Open Menu
 
 PLEASE_BE_PATIENT = Lütfen, bekleyiniz
 SAVEGAME_GETS_CREATED = Oyun kaydediliyor
@@ -48,7 +67,6 @@ SAVEGAME_GETS_LOADED = Oyun yükleniyor
 
 PROGRAMMELICENCES = Program Lisansları
 SELECT_LICENCES_FOR_SALE = Satılacak Lisansları Seçin
-
 
 YES = Evet
 NO = Hayır
@@ -59,11 +77,13 @@ INCREASE = Arttır
 PRICE = Fiyat
 VALUE = Değer
 BROADCASTING_AREA = Yayın Alanı
+OF_THE_MAP = of the map
 
 CURRENCY = €
 OCLOCK = 
 DAY = gün
 DAYS = gün
+DATE = date
 WEEK_SHORT_MONDAY		= Pt
 WEEK_SHORT_TUESDAY		= Sa
 WEEK_SHORT_WEDNESDAY	= Ça
@@ -78,7 +98,10 @@ WEEK_LONG_THURSDAY		= perşembe
 WEEK_LONG_FRIDAY		= cuma
 WEEK_LONG_SATURDAY		= cumartesi
 WEEK_LONG_SUNDAY		= pazar
-
+SEASON_SPRING           = spring
+SEASON_SUMMER           = summer
+SEASON_AUTUMN           = autumn
+SEASON_WINTER           = winter
 
 MENU_SOLO_GAME			= Tek Kişilik Oyun
 MENU_START_GAME			= Oyuna Başla
@@ -97,6 +120,7 @@ NEWS_POLITICS_ECONOMY	= Politika / Ekonomi
 NEWS_SHOWBIZ			= Magazin
 NEWS_SPORT				= Spor
 NEWS_CURRENTAFFAIRS		= Güncel Haberler
+NEWS_CULTURE = Culture
 
 PLANNER_UNKNOWN			= Pek Yakında
 PLANNER_PROGRAMME		= Program
@@ -104,9 +128,13 @@ PLANNER_ADS				= Reklamlar
 PLANNER_FINANCES		= Finans
 PLANNER_STATISTICS      = İstatistikler
 PLANNER_MESSAGES		= Mesajlar
+PLANNER_ACHIEVEMENTS	= Achievements
 
 ROOM_IS_BLOCKED = Oda Bloke!
 ROOM_IS_OCCUPIED = Oda Dolu!
+SHOOTING_IN_PROGRESS = Shooting in progress
+SHOOTING_FINISHED = Shooting finished
+BLOCKED_UNTIL_TIME = Blocked until %TIME%
 ROOM_THERE_IS_ALREADY_SOMEONE_IN_THE_ROOM = Odada şu anda birileri var...
 
 ROOM_ELEVATORPLAN		= Asansör Kat Planı
@@ -134,6 +162,7 @@ ROOM_ROOMAGENCY_OWNER	= H.G. Higwig
 ROOM_PEACEBROTHERS		= Barış Kardeşliği
 ROOM_PEACEBROTHERS_SUB	= Uluslararası Barış Ajansı
 ROOM_GUNSAGENCY			= Silah Ajansı
+ROOM_FREE_ROOM          = Free room
 ROOM_FREE_STUDIO		= Boş Stüdyo
 ROOM_STUDIO_OF			= %CHANNELNAME% Stüdyosu
 ROOM_SCRIPT_OFFICE		= Senaryo Ofisi
@@ -176,6 +205,12 @@ NEXT_PROGRAMME			= Sonraki Program
 NEXT_NOTHINGSET			= tanımsız !
 
 PROGRAMME_IN_PROGRAMME_PLAN = Plandaki Program!
+TRAILER_IN_PROGRAMME_PLAN = Trailer in programme plan!
+PROGRAMME_AND_TRAILER_IN_PROGRAMME_PLAN = Programme and trailer in programme plan!
+ONLY_1_BROADCAST_POSSIBLE = Only 1 broadcast possible!
+ONLY_X_BROADCASTS_POSSIBLE = Only %X% broadcast possible!
+NO_MORE_BROADCASTS_ALLOWED = No more broadcasts allowed!
+BROADCAST_ONLY_ALLOWED_FROM_X_TO_Y = Broadcast only allowed from %X%:00 to %Y%:00!
 
 AD_PROFIT				= Kâr
 AD_PLANNED				= planlı
@@ -212,7 +247,7 @@ AD_INFOMERCIAL			= Yayın durumuna göre ödeme yapılacaktır. Gelir izleyici s
 AD_INFOMERCIAL_NOT_AVAILABLE = Bu reklam için ödeme yoktur.
 AD_INFOMERCIAL_PROFIT	= Gelir: %PROFIT% x her 1000 izleyici 
 
-
+JOB_ALL = All jobs
 JOB_DIRECTOR		= Yönetmen
 JOB_DIRECTORS		= Yönetmen
 JOB_ACTOR			= Aktör
@@ -232,9 +267,31 @@ JOB_MUSIC             = Müzik
 JOB_MUSICIAN          = Müzisyen
 JOB_MUSICIANS         = Müzisyenler
 
+JOB_AMATEUR = Amateur
+JOB_AMATEURS = Amateurs
+JOB_AMATEUR_DIRECTOR         = Amateur director
+JOB_AMATEUR_DIRECTORS        = Amateur directors
+JOB_AMATEUR_ACTOR            = Amateur actor
+JOB_AMATEUR_ACTORS           = Amateur actors
+JOB_AMATEUR_SUPPORTINGACTOR  = Amateur supporting actor
+JOB_AMATEUR_SUPPORTINGACTORS = Amateur supporting actors
+JOB_AMATEUR_REPORTER         = Amateur reporter
+JOB_AMATEUR_REPORTERS        = Amateur reporters
+JOB_AMATEUR_GUEST            = Amateur guest
+JOB_AMATEUR_GUESTS           = Amateur guests
+JOB_AMATEUR_HOST             = Amateur host
+JOB_AMATEUR_HOSTS            = Amateur hosts
+JOB_AMATEUR_SCRIPTWRITER     = Amateur scriptwriter
+JOB_AMATEUR_SCRIPTWRITERS    = Amateur scriptwriters
+JOB_AMATEUR_MUSICIAN         = Amateur musician
+JOB_AMATEUR_MUSICIANS        = Amateur musicians
+
+JOB_POSITION_UNASSIGNED      = Unassigned
+
 MOVIE_SPEED				= Tempo
 MOVIE_CRITIC			= Eleştiri
 MOVIE_BOXOFFICE			= Gişe Hasılatı
+MOVIE_TVAUDIENCE        = TV-audience
 MOVIE_TOPICALITY		= Güncellik
 MOVIE_BLOCKS			= bloklar
 MOVIE_XRATED			= +18
@@ -278,6 +335,7 @@ PROGRAMME_GENRE_SHOW_AND_EVENTS= Şovlar & Etkinlikler
 PROGRAMME_GENRE_SHOW= Şov
 PROGRAMME_GENRE_SHOW_MUSIC= Müzik Şov
 PROGRAMME_GENRE_SHOW_POLITICS= Politik Sohbet
+PROGRAMME_GENRE_SHOW_GAME= Game Show
 PROGRAMME_GENRE_EVENT= Etkinlik
 PROGRAMME_GENRE_EVENT_POLITICS= Politika
 PROGRAMME_GENRE_EVENT_SPORT= Spor
@@ -306,6 +364,7 @@ PROGRAMME_PRODUCT_INFOMERCIAL = Bilgi Amaçlı Reklam
 PROGRAMME_PRODUCT_EVENT = Etkinlik
 PROGRAMME_PRODUCT_MISC = Çeşitli
 
+MOVIE_LIVESHOW= Live programme
 MOVIE_CALLINSHOW		= Her 1.000 İzleyici başına %PROFIT% kazanacaksınız.
 MOVIE_TRAILER			= Gelecek yayın ile ilgili Fragman yayınlamanız ilgiyi arttırabilir.
 
@@ -339,6 +398,7 @@ FINANCES_NEWS = Haber
 FINANCES_NEWSAGENCIES = Haber Ajansı
 FINANCES_INTEREST_BALANCE__CREDIT = Faiz: Bakiye / Kredi
 FINANCES_MISC = Çeşitli
+FINANCES_GRANTED_BENEFITS = Granted benefits
 FINANCES_TOTAL = Toplam
 
 FINANCES_HISTORY_FOR_CREDITREPAID = Kredi Geri Ödeme
@@ -347,6 +407,7 @@ FINANCES_HISTORY_FOR_STATIONBOUGHT = istasyon alımı
 FINANCES_HISTORY_FOR_STATIONSOLD = istasyon satışı
 FINANCES_HISTORY_OF_STATIONFEES = istasyon ücreti
 FINANCES_HISTORY_FOR_MISC = çeşitli
+FINANCES_HISTORY_OF_GRANTED_BENEFITS = of granted benefits
 FINANCES_HISTORY_FOR_PROGRAMMELICENCE = Program: %TITLE%
 FINANCES_HISTORY_FOR_AUCTIONBID = Arttırma: %TITLE%
 FINANCES_HISTORY_FOR_AUCTIONBIDREPAYED = Arttırma için İade: %TITLE%
@@ -364,6 +425,7 @@ FINANCES_HISTORY_OF_CREDITINTEREST = kredi faizi
 FINANCES_HISTORY_OF_DRAWINGCREDITINTEREST = kredi faizi ödeme
 FINANCES_HISTORY_OF_BALANCEINTEREST = bakiye faizi
 FINANCES_HISTORY_FOR_SOMETHING = herhangi birşey için
+FINANCES_HISTORY_BY_CHEAT = by cheat
 
 IMAGE_REACH = Erişim
 IMAGE_SHARETOTAL = Paylaşım toplamı
@@ -393,7 +455,6 @@ MAP_COUNTRY_BRANDENBURG			=	Brandenburg
 MAP_COUNTRY_NRW					=	Kuzey Ren Westfalya
 MAP_COUNTRY_MECKPOM				=	Mecklenburg-Hither Pomerania
 
-
 NEWS_ANNOUNCE_MOVIE_ACTOR_IS_DIRECTOR_TITLE	= %DIRECTORNAME1% isimli yönetmenin yaptığı Yeni Film
 NEWS_ANNOUNCE_MOVIE_ACTOR_IS_DIRECTOR_DESCRIPTION	= Yönetmen ve Baş Aktör %DIRECTORNAME1% , yeni filmi «%MOVIETITLE%» ile çıkıyor.
 
@@ -414,6 +475,15 @@ DIALOGUE_BOSS_MAIN_TITLE_DEFAULT2             = %PLAYERNAME%, yine mi sen ?!
 DIALOGUE_BOSS_MAIN_TITLE_UNFRIENDLY1          = Sen ... Nasıl cüret edersin?!
 DIALOGUE_BOSS_MAIN_TITLE_UNFRIENDLY2          = Kafayı mı yedin?
 DIALOGUE_BOSS_MAIN_TEXT_DEFAULT1              = Benim zamanımı çalmaktan daha iyi bir işin yok mu, senin?
+DIALOGUE_BOSS_MAIN_TEXT_WON_AWARDNAME1        = Hmm, at least you won the %AWARDNAME%.
+DIALOGUE_BOSS_MAIN_TEXT_WON_AWARDNAME2        = The %AWARDNAME% is ours! At least a gleam of hope in your actions.
+DIALOGUE_BOSS_MAIN_TEXT_WON_AWARDNAME3        = We won the %AWARDNAME%. Thanks due to my fatherly care I grant to you!
+DIALOGUE_BOSS_MAIN_TEXT_AWARDNAME_ENDS_TOMORROW1 = Do not loiter any longer: tomorrow the winner of the %AWARDNAME% will get appointed!
+DIALOGUE_BOSS_MAIN_TEXT_AWARDNAME_ENDS_TOMORROW2 = Do I look like the tooth fairy - what are you waiting for? Tomorrow the winner of the %AWARDNAME% will get appointed!
+DIALOGUE_BOSS_MAIN_TEXT_AWARDNAME_ENDS_TODAY1 = Go! Go! Go! Today the %AWARDNAME% will get awarded!
+DIALOGUE_BOSS_MAIN_TEXT_AWARDNAME_ENDS_TODAY2 = As you are standing gaping: today the %AWARDNAME% will get awarded!
+DIALOGUE_BOSS_MAIN_TEXT_NEW_AWARDNAME_TOMORROW1 = From tomorrow on a new Sammy will get appointed. I want you to bring the %AWARDNAME% home!
+DIALOGUE_BOSS_MAIN_TEXT_NEW_AWARDNAME_TOMORROW2 = Push yourself: from tomorrow on points could get collected for the new %AWARDNAME%!
 DIALOGUE_BOSS_MAIN_TEXT_PROGRAMMEMALFUNCTION1 = Bu durum kabul edilemez. Program Aksaklığı; |b|%PROGRAMMEMALFUNCTION%x|/b| 
 DIALOGUE_BOSS_MAIN_TEXT_NEWSMALFUNCTION1      = |b|%NEWSMALFUNCTION%x|/b| kez Haber Şovu Aksaklığı yapacağına, geçen senenin hava durumunu yayınlasaydın bari!
 DIALOGUE_BOSS_MAIN_ENDING_DEFAULT1            = İşine dön veya birisi senin yerine orada olacak..!
@@ -444,9 +514,72 @@ DIALOGUE_BOSS_CHANGETOPIC1				=	Başka bir konuyu konuşamaz mıyız?
 DIALOGUE_BOSS_BACKTOWORK				=	Tamam, %PLAYERNAME%, Haydi iş başina!
 DIALOGUE_BOSS_BACKTOWORK_OK				=	Tamam patron, işe dönüyorum.
 
+DIALOGUE_SUPERMARKET_TITLE1 = Hey Dude !
+DIALOGUE_SUPERMARKET_TITLE2 = Hi %PLAYERNAME% !
+DIALOGUE_SUPERMARKET_TITLE3 = Howdy, %PLAYERNAME% !
+DIALOGUE_SUPERMARKET_TEXT1 = What do you want to do today?
+DIALOGUE_SUPERMARKET_TEXT2 = What can I do for you today??
+DIALOGUE_SUPERMARKET_TEXT3 = Are you able to do a good job on your own? I am going to have a joi... I am going to get some fresh air.
+DIALOGUE_SUPERMARKET_TEXT4 = Just do it, I still have a throbbing head ... that ...party yesterday...
+
+DIALOGUE_SUPERMARKET_PLAN_A_PRODUCTION = I want to plan a TV-production and to buy everything needed for it
+DIALOGUE_SUPERMARKET_BUY_A_PRESENT = I want to buy a present
+DIALOGUE_SUPERMARKET_GOODBYE1 = I'm off then. Bye bye.
+DIALOGUE_SUPERMARKET_GOODBYE2 = See you. Bye.
+DIALOGUE_SUPERMARKET_GOODBYE3 = Making tracks now. See you.
 
 
-DIALOGUE_BETTY_WELCOME = Oh Merhaba?\n Aslında daha sık gelebilirsin.
+#level 0 = formal, level>0 = informal
+
+DIALOGUE_BETTY_WELCOME_TEXT = Hello,\n\nhow can I help you?
+DIALOGUE_BETTY_WELCOME_LEVEL0_TEXT1 = Good Day!\n\nWhat drives you to the topmost floor?
+DIALOGUE_BETTY_WELCOME_LEVEL0_TEXT2 = Yes?\n\\nFor sure you are here to fetch latest Information about the Sammy.
+DIALOGUE_BETTY_WELCOME_LEVEL1_TEXT1 = Hello %PLAYERNAME%,\n\nwhat brings you to me this day?
+DIALOGUE_BETTY_WELCOME_LEVEL1_TEXT2 = Hmm?\n\nYou surely want to hear some news about the Sammy.
+DIALOGUE_BETTY_WELCOME_LEVEL2_TEXT1 = Hi %PLAYERNAME%,\n\nnice to see you again. Sit down please - so why are you here?
+DIALOGUE_BETTY_WELCOME_LEVEL2_TEXT2 = %PLAYERNAME%!?\n\nI think you rascal are just here for the Sammy news, aren't you?
+DIALOGUE_BETTY_WELCOME_LEVEL3_TEXT1 = Hi %PLAYERNAME%,\n\nour latest meeting was really nice. I hope we catch up again some more times.
+DIALOGUE_BETTY_WELCOME_LEVEL3_TEXT2 = Hey there!\n\nI'll make us some tea - hope you have some time to chat.
+
+DIALOGUE_BETTY_NO_AWARD_LEVEL0_TEXT1 = Currently no Sammy is awarded. I think in some days the race for points will start again.
+DIALOGUE_BETTY_NO_AWARD_LEVEL1_TEXT1 = Currently no Sammy is awarded. Maybe I can tell you more tomorrow.
+DIALOGUE_BETTY_AWARDINFORMATION_NO_FAVORITE_LEVEL0_TEXT1 = The %AWARDNAME%?\n\nThere is no favorite yet.
+DIALOGUE_BETTY_AWARDINFORMATION_YOU_ARE_FAVORITE_LEVEL0_TEXT1 = The %AWARDNAME%?\n\nCurrently it looks good for you.
+DIALOGUE_BETTY_AWARDINFORMATION_YOU_ARE_FAVORITE_LEVEL1_TEXT1 = The %AWARDNAME%?\n\nCurrently it looks good for you.
+DIALOGUE_BETTY_AWARDINFORMATION_YOU_ARE_AVERAGE_LEVEL0_TEXT1 = The %AWARDNAME%?\n\nThis I can tell: You are ranking amongst the others.
+DIALOGUE_BETTY_AWARDINFORMATION_YOU_ARE_AVERAGE_LEVEL1_TEXT1 = The %AWARDNAME%?\n\nThis I can tell: You are ranking amongst the others.
+DIALOGUE_BETTY_AWARDINFORMATION_YOU_ARE_NOT_FAVORITE_LEVEL0_TEXT1 = The %AWARDNAME%?\n\nTo win you will have to try harder.
+DIALOGUE_BETTY_AWARDINFORMATION_YOU_ARE_NOT_FAVORITE_LEVEL1_TEXT1 = The %AWARDNAME%?\n\nTo win you will have to try harder.
+
+DIALOGUE_BETTY_ASK_FOR_SAMMYINFORMATION = How is it with the current Sammy?
+DIALOGUE_BETTY_ASK_FOR_MASTERKEY = By chance - can't you lend me the master key?
+DIALOGUE_BETTY_CHANGETOPIC = Let's talk about something else
+DIALOGUE_BETTY_LEVEL0_CHANGETOPIC1 = Hope you do not mind if we talk about something else.
+DIALOGUE_BETTY_GOODBYE = Hmm, see you.
+DIALOGUE_BETTY_LEVEL0_GOODBYE = Uhmm, goodbye
+DIALOGUE_BETTY_LEVEL1_GOODBYE = See you again
+DIALOGUE_BETTY_LEVEL2_GOODBYE = Hey, I have to go. See you later.
+DIALOGUE_BETTY_LEVEL3_GOODBYE = Listen Betty, work is calling. Just away for a second.
+
+
+DIALOGUE_STUDIO_BRING_SOME_SCRIPT = Hi %PLAYERNAME%,\n\nBring a script and we might be able to produce something nice.
+DIALOGUE_STUDIO_SCRIPT_HINT = Hmmm, I cannot tell you details about this script. Maybe I am allowed to tell more in a later version of the game. This depends on the developers *shrug*.
+DIALOGUE_STUDIO_PRODUCTIONCONCEPT_HINT = (TODO) Offer information about the production concept.
+DIALOGUE_STUDIO_CURRENTPRODUCTION_INFORMATION = So you want to produce |b|%SCRIPTTITLE%|/b|?
+DIALOGUE_STUDIO_CURRENTPRODUCTION_INFORMATION_1_PRODUCTION_PLANNED = So far |b|1 production|/b| of this script is planned.
+DIALOGUE_STUDIO_CURRENTPRODUCTION_INFORMATION_X_PRODUCTIONS_PLANNED = So far |b|%X% productions|/b| of this script are planned.
+DIALOGUE_STUDIO_CURRENTPRODUCTION_INFORMATION_1_PRODUCTION_DONE = Up to now |b|1 production|/b| of this script was done.
+DIALOGUE_STUDIO_CURRENTPRODUCTION_INFORMATION_X_PRODUCTIONS_DONE = Up to now |b|%X% productions|/b| of this script were done.
+DIALOGUE_STUDIO_CURRENTPRODUCTION_INFORMATION_X_PRODUCTIONS_PLANNED_AND_Y_PRODUCTIONS_DONE = To date |b|%X% productions|/b| of this script are planned and |b|%Y%|/b| are done.
+DIALOGUE_STUDIO_SHOPPING_LIST_LIMIT_REACHED = By the way: There is no more space left for further shopping lists. I cannot give you another one until you remove one first (pick up a shopping list and deletet it with right button click).
+DIALOGUE_STUDIO_YOU_NEED_TO_FINISH_PRODUCTION_PLANNING = To be able to start the production you first of all have to finish the production planning in the supermarket.
+
+DIALOGUE_STUDIO_START_PRODUCTION = Start production
+DIALOGUE_STUDIO_START_ALL_X_POSSIBLE_PRODUCTIONS = Start all possible productions (%X%).
+DIALOGUE_STUDIO_ASK_FOR_ANOTHER_SHOPPINGLIST = I need another shopping list for this script.
+DIALOGUE_STUDIO_ASK_FOR_A_SHOPPINGLIST = I need a shopping list for this script.
+DIALOGUE_STUDIO_GOODBYE1 = Bye.
+DIALOGUE_STUDIO_GOODBYE2 = Goodbye.
 
 SHOW_PLAYERS = Oyuncuları göster
 PURCHASE = Satın Al
@@ -459,6 +592,7 @@ SELECT_STATION = İstasyon Seç
 BUY_STATION = İstasyonu Satın Al
 TOO_EXPENSIVE = Çok pahalı
 SELL_STATION = İstasyon Sat
+UNSELLABLE = unsellable
 
 UNDER_CONSTRUCTION = Yapım Aşamasında
 READY_AT_TIME_X = Hazır olacağı zaman; %TIME%
@@ -483,9 +617,12 @@ X_RATED = +18
 MOVIES_AND_SERIES_AUCTION = Film ve Dizi Açık Arttırması
 
 OLD = Eski
+TOMORROW = Tomorrow
 TODAY = Bugün
 YESTERDAY = Dün
 TWO_DAYS_AGO = 2 gün önce
+IN_X_DAYS = In %DAYS% days
+X_DAYS_AGO = %DAYS% days ago
 
 INFOMERCIAL = Infomercial
 SPECIAL_NEWS_BROADCAST = Özel Haberler
@@ -508,6 +645,10 @@ EXIT_TO_MAINMENU = Ana Menüye Çıkış
 NAME_OF_SAVEGAME = Kayıt İsmi
 OVERWRITE_SAVEGAME = Üzerine Yazılsın mı?
 DO_YOU_REALLY_WANT_TO_OVERWRITE_SAVEGAME_X = Gerçekten Kayıtlı oyun %SAVEGAME% silinsin mi?
+
+CREDIT_REPAID = credit repaid
+CREDIT_TAKEN = credit taken
+ACCOUNT_BALANCE_VALUE = account balance
 
 ADCONTRACT_FINISHED = Reklam Kontratı tamamlandı
 ADCONTRACT_FAILED = Reklam Kontratı Başarısız
@@ -544,10 +685,10 @@ STARTING_SINGLEPLAYERGAME = Tek Oyunculu Oyun Başlatılıyor
 
 WEATHER_FORECAST_FOR_X_TILL_Y = %BEGINHOUR% - %ENDHOUR% saatleri arası hava durumu
 SKY_IS_PARTIALLY_CLOUDY = Hava parçalı bulutlu.
-SKY_IS_OVERCAST = Hava bulutlu.
+SKY_IS_OVERCAST1 = Hava bulutlu.
 SKY_IS_WITHOUT_CLOUDS = Gökyüzü açık.
 SUN_SHINES_WHOLE_TIME = Güneş tepede.
-SUN_WINS_AGAINST_CLOUDS = Güneş, bulutlara karşı gökyüzünü kazanıyor.
+SUN_WINS_AGAINST_CLOUDS1 = Güneş, bulutlara karşı gökyüzünü kazanıyor.
 SUN_IS_SHINING_SOMETIMES = Güneş arada yüzünü gösteriyor.
 SUN_IS_NOT_SHINING = Gökyüzü gri, güneş görünmüyor.
 RAIN_AND_SNOW_ALTERNATE = Karla karışık yağmurlu.
@@ -555,7 +696,6 @@ RAIN_IS_POSSIBLE = Yağmur yağabilir.
 SNOW_IS_FALLING = Caddelere dikkat edin. Kar yağıyor ve gizli buzlanma olabilir.
 TEMPERATURES_ARE_BETWEEN_X_AND_Y = Isı %MINTEMPERATURE% ile %MAXTEMPERATURE%°C arasında...
 TEMPERATURE_IS_CONSTANT_AT_X = Isı tam olarak  %TEMPERATURE%°C sabit.
-
 
 IN_THE_LATER_HOURS1 = Önümüzdeki saatlerde
 IN_THE_LATER_HOURS2 = Şafaktan sonra
@@ -567,6 +707,26 @@ NEARLY_NO_WIND2 = Rüzgarsız.
 SLOW_WIND_WITH_X_AND_GUST_OF_WIND_WITH_Y1 = Hafif esinti %MINWINDVELOCITY% km/s ile %MAXWINDVELOCITY% km/s arasında.
 WIND_VELOCITIES_ARE_BETWEEN_X_AND_Y1 = Rüzgarın hızı %MINWINDVELOCITY% ile %MAXWINDVELOCITY% km/s arasında.
 WIND_VELOCITY_IS_CONSTANT_AT_X1 = Rüzgarın şiddeti %WINDVELOCITY% km/s.
+
+NEWS_TERROR_GROUP1_LEVEL1_TITLE1 = Ambassador of the PR Duban offends his counterpart
+NEWS_TERROR_GROUP1_LEVEL1_TEXT1 =  It is a scandal: an ambassador of PR Duban insulted his counterpart from the FR Duban.
+NEWS_TERROR_GROUP2_LEVEL1_TITLE1 = Ambassador of FR Duban insults neighbours.
+NEWS_TERROR_GROUP2_LEVEL1_TEXT1 = This cannot be true: an ambassador of FR Duban insulted the representatives of the PR Duban.
+
+NEWS_TERROR_GROUP1_LEVEL2_TITLE1 = Ambassador beaten
+NEWS_TERROR_GROUP1_LEVEL2_TEXT1 = On his way home, the Ambassador of the PR Duban was knocked out in the basement garage. Witnesses saw a car of FR Duban drive off.
+NEWS_TERROR_GROUP2_LEVEL2_TITLE1 = Apartment of an ambassador devastated
+NEWS_TERROR_GROUP2_LEVEL2_TEXT1 = The apartment of the Ambassador of the FR Duban was devastated. Clues point to the circles of VR Duban ...
+
+NEWS_TERROR_GROUP1_LEVEL3_TITLE1 = VR Duban threatens retaliation
+NEWS_TERROR_GROUP1_LEVEL3_TEXT1 = The VR Duban openly threatens with revenge. The culprits were allegedly found. The situation is tough.
+NEWS_TERROR_GROUP2_LEVEL3_TITLE1 = FR Duban warns of consequences
+NEWS_TERROR_GROUP2_LEVEL3_TEXT1 = Enough. So the concise text of the message. The FR Kuban takes countermeasures.
+
+NEWS_TERROR_GROUP1_LEVEL4_TITLE1 = The police warn of terrorists
+NEWS_TERROR_GROUP1_LEVEL4_TEXT1 = The police lost track of a recently sighted terrorist. He is claimed to be of Dubanian origin.
+NEWS_TERROR_GROUP2_LEVEL4_TITLE1 = The police warn of terrorists
+NEWS_TERROR_GROUP2_LEVEL4_TEXT1 = The police lost track of a recently sighted terrorist. He is claimed to be of Dubanian origin.
 
 LOCKED = Kilitli
 ACCESS_TO_THIS_ROOM_IS_ONLY_POSSIBLE_WITH_THE_RIGHT_KEY = Bu odaya saadece doğru anahtar ile girilir.
@@ -582,3 +742,280 @@ PRIMETIME = Primetime
 NIGHTTIME = Gece Programı
 LOW_AUDIENCE = Düşük İzleyici
 HIGH_AUDIENCE = Yüksek İzleyici
+
+COULISSE = Coulisse
+OUTFIT_AND_MASK = Outfit / Mask
+STUNTS = Stunts
+VFX_AND_SFX = VFX / SFX
+TEAM = Team (Technicians, etc.)
+PRODUCTION_SPEED = Production speed
+
+PRODUCTION_POTENTIAL = Potential
+
+CAST_EXPERIENCE = Experience
+CAST_FAME = Fame
+CAST_SKILL = Skill
+CAST_POWER = Power
+CAST_HUMOR = Humor
+CAST_CHARISMA = Charisma
+CAST_APPEARANCE = Appearance
+
+TITLE = Title
+DESCRIPTION = Description
+EPISODE = Episode
+CLICK_TO_SELECT_PERSON = Click to select Person
+TOUCH_TO_SELECT_PERSON = Touch to select Person
+
+POINTSSET_OF_POINTSMAX_POINTS_SET = %POINTSSET%/%POINTSMAX% points set
+PRODUCTION_FOCUS_POINTS_NOT_SET_COMPLETELY = Production focus points not set completely
+NEED_TO_SPENT_AT_LEAST_ONE_POINT_OF_PRODUCTION_FOCUS_POINTS = At least one point has to be spent on focus points
+NO_PRODUCTION_COMPANY_SELECTED = No production company selected
+PRODUCTION_SETUP_NOT_DONE = Production setup not done
+PRODUCTION_SETUP_INCOMPLETE = Production setup incomplete
+EPISODES_NOT_IN_ORDER = Episodes not in order
+PRODUCTION_CONCEPTS = Shopping lists
+
+NO_PRESENT_SELECTED = No present selected
+BUY_PRESENTTITLE_FOR_PRICE = Buy %PRESENTTITLE% for %PRICE%
+BETTY_PRESENT_1 = foot spray
+BETTY_PRESENT_2 = dinner for two
+BETTY_PRESENT_3 = nose operation
+BETTY_PRESENT_4 = custom written novel
+BETTY_PRESENT_5 = pearl necklace
+BETTY_PRESENT_6 = Chinese hamster coat
+BETTY_PRESENT_7 = blood diamond necklace
+BETTY_PRESENT_8 = sports car
+BETTY_PRESENT_9 = ring
+BETTY_PRESENT_10= yacht
+
+SELECT_PERSON = Select person
+FINISHED_PLANNING = Finished planning
+FINISH_PLANNING = Finish planning
+AND_PAY_DOWN_MONEY = and pay down %money%
+PLANNING = Planning ...
+MONEY_TO_PAY_DOWN = %money% to pay down
+TAKE_OVER_SETTINGS = Take over settings
+PRODUCTION_COMPANY = Production company
+EDIT_TEXTS = Edit texts
+
+STUDIO_MANAGER = Studio manager
+STUDIO_MANAGER_TOOLTIP = Gives information about production and hands out new shopping lists
+
+MANAGE_BROADCASTED_NEWS = Manage broadcasted news
+
+RIGHT_CLICK_TO_DELETE = Right click to delete
+
+YOUR_BALANCE_IS_POSITIVE_AGAIN = Your balance is positive again.
+YOUR_BALANCE_IS_NEGATIVE = Your balance is negative.
+YOU_ARE_NO_LONGER_IN_DANGER_TO_GET_FIRED = You are no longer in danger of being fired.
+YOU_HAVE_X_DAYS_TO_GET_INTO_THE_BLACK = You have %DAYS% to get into the black.
+YOU_HAVE_ONLY_TODAY_TO_GET_INTO_THE_BLACK = You have only today to get into the black.
+YOU_ARE_IN_DANGER_TO_GET_FIRED = You are in danger of being fired!
+
+PRODUCTION = Production
+TOTAL_COSTS = Total costs
+DURATION = Duration
+SUBHEADING = Subheading
+PRODUCTION_DETAILS = Production details
+PRODUCTION_FOCUS = Production focus
+
+DO_NOT_SHOW_AGAIN = Do not show again
+DO_NOT_SHOW_ANY_TIPS = Do not show any tips
+SHOW_INTRODUCTORY_GUIDES = Show introductory guides
+
+BOMB_DETONATION_IN_TVTOWER = Bomb detonation in TVTower 
+BOMB_DETONATION_IN_TVTOWER_TEXT = A bomb detonation unsettled the people of the famous TVTower. The bomb damaged the room "%ROOM%". Investigations are in full swing.
+TOASTMESSAGE_BOMB_DETONATION_IN_TVTOWER_TEXT = A bomb detonation damaged the room %ROOM%.
+
+BOMB_DETONATION_IN_TVTOWER_NO_CLUES = Attack on TVTower: No clues found
+BOMB_DETONATION_IN_TVTOWER_NO_CLUES_TEXT = Public authorities investigated after the attack in the famous TVTower. Unfortunately they weren't able to find any useful clues.
+
+BOMB_DETONATION_IN_TVTOWER_FOUND_CLUES = Attack on TVTower: Clues found
+BOMB_DETONATION_IN_TVTOWER_FOUND_CLUES_TEXT = Public authorities investigated after the attack in the famous TVTower - with success! Apparently resident TV channels (%CHANNELS%) assisted unwillingly with their roomsign-switch-games.
+
+INGAME_HELP_TEXT_SCREEN_EMPTYROOM = Sorry\n\nThis room is still without function. We are working on it!
+INGAME_HELP_TITLE_SCREEN_EMPTYROOM = OUT OF ORDER
+
+YOU_JUST_COMPLETED_ACHIEVEMENTTITLE = You just completed "%ACHIEVEMENTTITLE%".
+ACHIEVEMENT_COMPLETED = Achievement completed
+REWARD = Reward
+TASK = Task
+
+ACHIEVEMENTS = Achievements
+ACHIEVEMENTCATEGORY_CATEGORIES = Categories
+ACHIEVEMENTCATEGORY_ALL = All Categories
+ACHIEVEMENTCATEGORY_NEWS = News
+ACHIEVEMENTCATEGORY_PROGRAMMES = Programmes
+ACHIEVEMENTCATEGORY_STATIONMAP = Stationmap
+ACHIEVEMENTCATEGORY_MISC = Misc
+
+ARCHIVED_MESSAGES = Archived Messages
+READ_MESSAGES_YOU_MIGHT_HAVE_MISSED = Read messages you might have missed
+MESSAGECATEGORY_CATEGORIES = Categories
+MESSAGECATEGORY_ALL = All Categories
+MESSAGECATEGORY_MONEY = Money / Finances
+MESSAGECATEGORY_ACHIEVEMENTS = Achievements
+MESSAGECATEGORY_AWARDS = Awards/Sammy
+MESSAGECATEGORY_MISC = Misc
+
+DIFFICULTY_EASY = Easy
+DIFFICULTY_NORMAL = Normal
+DIFFICULTY_HARD = Hard
+DIFFICULTY_CUSTOM = Custom
+
+GAMETIME = Time
+PLAYER = Player
+
+GAME = Game
+
+GAMESPEED = Game speed
+SET_SPEED_TO_X = Set speed to %SPEED%
+MANUAL = Manual
+HELP = Help
+SHOW_HELP = Show help
+
+NEWSPLANSIGN_TO_THE_TEAM = To the team
+NEWSPLANSIGN_SEND_THE_FOLLOWING_NEWS = send the following news:
+
+SCORE_POINT = Point
+SCORE_POINTS = Points
+
+SPORT_ICEHOCKEY = Ice hockey
+
+SPORT_SOCCER = Soccer
+SPORT_SOCCER_TEAMREPORT_MATCHWIN_S1 = and forward %TEAM1STAR% win %MATCHKIND% against 
+SPORT_SOCCER_TEAMREPORT_MATCHWIN_P1 = and forward %TEAM1STAR% win %MATCHKIND% against 
+SPORT_SOCCER_TEAMREPORT_MATCHWIN_S2 = defeats thanks to a converted corner kick by %TEAM1STARSHORT% %MATCHKIND%
+SPORT_SOCCER_TEAMREPORT_MATCHWIN_P2 = defeat thanks to a converted corner kick by %TEAM1STARSHORT% %MATCHKIND%
+SPORT_SOCCER_TEAMREPORT_MATCHWIN_S3 = defeats thanks to saved penalty by keeper %TEAM1KEEPERSHORT% %MATCHKIND%
+SPORT_SOCCER_TEAMREPORT_MATCHWIN_P3 = defeat thanks to saved penalty by keeper %TEAM1KEEPERSHORT% %MATCHKIND%
+
+SPORT_SOCCER_TEAMREPORT_MATCHLOOSE_S1 = goes under by an oversight of keeper %TEAM1KEEPERSHORT% and %MATCHKIND% against
+SPORT_SOCCER_TEAMREPORT_MATCHLOOSE_P1 = go under by an oversight of keeper %TEAM1KEEPERSHORT% and %MATCHKIND% against
+SPORT_SOCCER_TEAMREPORT_MATCHLOOSE_S2 = loses with disappointed keeper %TEAM1KEEPER% %MATCHKIND% against
+SPORT_SOCCER_TEAMREPORT_MATCHLOOSE_P2 = lose with disappointed keeper %TEAM1KEEPER% %MATCHKIND% against
+
+SPORT_SOCCER_TEAMREPORT_MATCHKIND1 = after %PLAYTIMEMINUTES% minutes of doubtful soccer
+SPORT_SOCCER_TEAMREPORT_MATCHKIND2 = after %PLAYTIMEMINUTES% minutes of tactical duels
+SPORT_SOCCER_TEAMREPORT_MATCHKIND3 = after exciting %PLAYTIMEMINUTES% minutes of lawn sport
+
+
+SPORT_TEAMREPORT_MATCHWIN_S1 = wins thanks to %TEAM1STAR%
+SPORT_TEAMREPORT_MATCHWIN_P1 = win thanks to %TEAM1STAR%
+SPORT_TEAMREPORT_MATCHWIN_S2 = defeats %MATCHKIND%
+SPORT_TEAMREPORT_MATCHWIN_P2 = defeat %MATCHKIND%
+SPORT_TEAMREPORT_MATCHWIN_S3 = wins %MATCHSCORE1TEXT% against
+SPORT_TEAMREPORT_MATCHWIN_P3 = win %MATCHSCORE1TEXT% against
+SPORT_TEAMREPORT_MATCHWIN_S4 = overcomes
+SPORT_TEAMREPORT_MATCHWIN_P4 = overcome
+
+SPORT_TEAMREPORT_MATCHDRAW_S1 = gives away the chance of %MATCHSCOREMAXTEXT% against
+SPORT_TEAMREPORT_MATCHDRAW_P1 = gave away the chance of %MATCHSCOREMAXTEXT% against
+SPORT_TEAMREPORT_MATCHDRAW_S2 = only reaches a draw against
+SPORT_TEAMREPORT_MATCHDRAW_P2 = only reach a draw against
+SPORT_TEAMREPORT_MATCHDRAW_S3 = brings home %MATCHSCORE1TEXT% against
+SPORT_TEAMREPORT_MATCHDRAW_P3 = bring home %MATCHSCORE1TEXT% against
+
+SPORT_TEAMREPORT_MATCHLOOSE_S1 = gifts %MATCHKIND% 3 precious points to
+SPORT_TEAMREPORT_MATCHLOOSE_P1 = gift %MATCHKIND% 3 precious points to
+SPORT_TEAMREPORT_MATCHLOOSE_S2 = disgraces itself %MATCHKIND% against
+SPORT_TEAMREPORT_MATCHLOOSE_P2 = disgrace itself %MATCHKIND% against
+SPORT_TEAMREPORT_MATCHLOOSE_S3 = gifts %MATCHKIND% %MATCHSCORE2TEXT% to
+SPORT_TEAMREPORT_MATCHLOOSE_P3 = gift %MATCHKIND% %MATCHSCORE2TEXT% to
+
+SPORT_TEAMREPORT_MATCHKIND1 = deservedly
+SPORT_TEAMREPORT_MATCHKIND2 = flukey
+SPORT_TEAMREPORT_MATCHKIND3 = after a long %PLAYTIMEMINUTES% minutes of match time
+SPORT_TEAMREPORT_MATCHKIND4 = in a racket of a game
+SPORT_TEAMREPORT_MATCHKIND5 = in a nail-biter
+SPORT_TEAMREPORT_MATCHKIND6 = in a sold out stadium
+SPORT_TEAMREPORT_MATCHKIND7 = in front of fully occupied coulisses
+SPORT_TEAMREPORT_MATCHKIND8 = in front of a chanting audience
+SPORT_TEAMREPORT_MATCHKIND9 = in front of a frenetic audience
+SPORT_TEAMREPORT_MATCHKIND10 = with almost empty fanblock
+SPORT_TEAMREPORT_MATCHKIND11 = in front of filled stadiums
+SPORT_TEAMREPORT_MATCHRESULT = %TEAMA1RTICLE1% %TEAM1% %MATCHRESULT% %TEAM2ARTICLE2% %TEAM2% with %FINALSCORE%.
+#Variant A = "_der_ FC gewinnt"
+#Variant B = "besiegt _den_ FC"
+SPORT_TEAMNAME_S_VARIANT_A = the
+SPORT_TEAMNAME_S_VARIANT_B = the
+SPORT_TEAMNAME_P_VARIANT_A = the
+SPORT_TEAMNAME_P_VARIANT_B = the
+
+SPORT_PROGRAMME_TITLE = %SPORTNAME%: %LEAGUENAME% %SEASONYEARSTART%
+SPORT_PROGRAMME_ALL_X_MATCHES_OF_LEAGUEX_IN_SEASON_X = All %MATCHCOUNT% upcoming matches of %LEAGUENAME% in season %SEASONYEARSTART%.
+SPORT_PROGRAMME_MATCH_TIMES = Match times
+
+SPORT_PROGRAMME_PLAYOFF_MATCH = Playoff match.
+SPORT_PROGRAMME_MATCH_OF_LEAGUEX = Match of %LEAGUENAME%.
+SPORT_PLAYOFFS_LONG = "Playoffs"
+SPORT_PLAYOFFS_SHORT = "PO"
+
+SPORT_AFTER_PENALTY_SHORT = "a.p."
+SPORT_AFTER_OVERTIME_SHORT = "a.o."
+
+CLASSIFICATION = classification
+REMAINING_TERM = remaining term
+SPOTS_TO_SEND = spots to send
+NAME = name
+
+AWARDNAME_CULTURE = Sammy "for Culture"
+AWARDNAME_NEWS = Sammy "for News"
+AWARDNAME_AUDIENCE = Sammy "for Audience"
+AWARDNAME_CUSTOMPRODUCTION = Sammy "for custom productions"
+AWARD_WON = Award won
+YOU_WON_THE_AWARDNAME = You won the %AWARDNAME%.
+CHANNEL_IMAGE = channel image
+FOR_X_HOURS = for %X% hours
+FOR_X_HOUR = for %X% hour
+ATTRACTIVITY = attractivity
+
+COUNTRYNAME_ISO3166_DE = Deutschland
+COUNTRYNAME_ISO3166_DE_SHORT = D
+
+ABBREVIATION_YEARS = Y.
+
+BEFORE_XTH_PLAYER_RESTART = Before %X%. player restart
+
+ROOM_OVERVIEW = Room overview
+CANCEL_OR_RENT_ROOMS = Cancel or rent rooms
+PREVIOUS_TENANT = Previous tenant
+ORIGINAL_TENANT = Original tenant
+RERENT = Rerent
+
+IN_XTIME_AFTER_CANCELLATION = In %X% after cancellation
+IN_XTIME = In %X%
+
+HOUR = hour
+HOURS = hours
+MINUTE = minute
+MINUTES = minutes
+
+CONFIRM = confirm
+CLICK_AGAIN_TO_RENT = Click again to rent
+CLICK_AGAIN_TO_CANCEL_RENT = Click again to cancel rent
+
+ROOMAGENCY_SIZE_TEXT1 = Perfectly dimensioned room of the size %SIZE%.
+ROOMAGENCY_SIZE_TEXT2 = Room in the practical size of %SIZE%.
+
+ROOMAGENCY_ROOM_X_IN_RANGE_TEXT1 = In a favorable position near %X%.
+ROOMAGENCY_ROOM_SUPERMARKET_IN_RANGE_TEXT1 = Convenient: just around the corner there is the %X%.
+ROOMAGENCY_ROOM_SCRIPTAGENCY_IN_RANGE_TEXT1 = Just a short hop from the %X%.
+ROOMAGENCY_ROOM_OFFICE_IN_RANGE_TEXT1 = Nearby your own office!
+
+ROOMAGENCY_AVAILABLE_FOR_RENT_OF_X_PER_DAY = Available for just |b|%X%/gameday|/b|.
+ROOMAGENCY_SIGNING_WILL_COST_A_SINGLE_PAYMENT_OF_X = Signing will cost a single payment of |b|%X%|/b|.
+
+ROOMAGENCY_ROOM_CURRENTLY_NOT_AVAILABLE_BUT_THIS_MIGHT_CHANGE1 = This room is still rented, but with a nice advice the tenant could release the room.
+ROOMAGENCY_ROOM_CURRENTLY_NOT_AVAILABLE_BUT_THIS_MIGHT_CHANGE2 = This room is still rented, but with a little persuasion, the tenant might well be willed to cancel this room rental.
+
+PLAYER_WENT_BANKRUPT = Player went bankrupt.
+PLAYER_X_FROM_CHANNEL_Y_WENT_BANKRUPT1 = Player %X% of channel %Y% did not play well enough and went bankrupt.
+PLAYER_X_FROM_CHANNEL_Y_WENT_BANKRUPT2 = Player %X% of channel %Y% hopefully has a contingency plan as they just went bankrupt.
+PLAYER_X_FROM_CHANNEL_Y_WENT_BANKRUPT3 = Channel %Y% went bankrupt. Old manager %X% got fired for incompetence.
+PLAYER_WILL_START_AGAIN = Player will start again.
+AI_WILL_TAKE_OVER_THIS_PLAYER = AI will take over this player.
+
+GENDER_MEN = Men
+GENDER_WOMEN = Women
+GENDER_ALL = All
