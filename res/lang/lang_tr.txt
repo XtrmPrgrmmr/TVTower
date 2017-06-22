@@ -717,15 +717,16 @@ NEWS_TERROR_GROUP1_LEVEL2_TEXT1 = Eve giderken, PR Duban büyükelçisi evinin g
 NEWS_TERROR_GROUP2_LEVEL2_TITLE1 = Büyükelçinin evi tahrip edildi.
 NEWS_TERROR_GROUP2_LEVEL2_TEXT1 = FR Duban büyükelçisinin evi tahrip edildi. İpuçları VR Duban'ı işaret ediyor.
 
-NEWS_TERROR_GROUP1_LEVEL3_TITLE1 = VR Duban threatens retaliation
-NEWS_TERROR_GROUP1_LEVEL3_TEXT1 = The VR Duban openly threatens with revenge. The culprits were allegedly found. The situation is tough.
-NEWS_TERROR_GROUP2_LEVEL3_TITLE1 = FR Duban warns of consequences
-NEWS_TERROR_GROUP2_LEVEL3_TEXT1 = Enough. So the concise text of the message. The FR Kuban takes countermeasures.
+NEWS_TERROR_GROUP1_LEVEL3_TITLE1 = VR Duban intikam tehditleri alıyor.
+NEWS_TERROR_GROUP1_LEVEL3_TEXT1 = TVR Duban intikam tehdidi aldı. Suçlular bulundu. Durum ciddi.
 
-NEWS_TERROR_GROUP1_LEVEL4_TITLE1 = The police warn of terrorists
-NEWS_TERROR_GROUP1_LEVEL4_TEXT1 = The police lost track of a recently sighted terrorist. He is claimed to be of Dubanian origin.
-NEWS_TERROR_GROUP2_LEVEL4_TITLE1 = The police warn of terrorists
-NEWS_TERROR_GROUP2_LEVEL4_TEXT1 = The police lost track of a recently sighted terrorist. He is claimed to be of Dubanian origin.
+NEWS_TERROR_GROUP2_LEVEL3_TITLE1 = FR Duban uyardı.
+NEWS_TERROR_GROUP2_LEVEL3_TEXT1 = Yeterli. Bu son mesaj. FR Kuban artık harekete geçecek.
+
+NEWS_TERROR_GROUP1_LEVEL4_TITLE1 = Polis, terör uyarısı yaptı.
+NEWS_TERROR_GROUP1_LEVEL4_TEXT1 = Polis teröristi elinden kaçırdı. Duban doğumlu olduğu tahmin ediliyor.
+NEWS_TERROR_GROUP2_LEVEL4_TITLE1 = Polis, terör uyarısı yaptı.
+NEWS_TERROR_GROUP2_LEVEL4_TEXT1 = Polis teröristi elinden kaçırdı. Duban doğumlu olduğu tahmin ediliyor.
 
 LOCKED = Kilitli
 ACCESS_TO_THIS_ROOM_IS_ONLY_POSSIBLE_WITH_THE_RIGHT_KEY = Bu odaya saadece doğru anahtar ile girilir.
@@ -742,89 +743,89 @@ NIGHTTIME = Gece Programı
 LOW_AUDIENCE = Düşük İzleyici
 HIGH_AUDIENCE = Yüksek İzleyici
 
-COULISSE = Coulisse
-OUTFIT_AND_MASK = Outfit / Mask
-STUNTS = Stunts
+COULISSE = Kulis
+OUTFIT_AND_MASK = Kostüm / Maske
+STUNTS = Dublör
 VFX_AND_SFX = VFX / SFX
-TEAM = Team (Technicians, etc.)
-PRODUCTION_SPEED = Production speed
+TEAM = Takım (Teknisyen, vb.)
+PRODUCTION_SPEED = Üretim hızı
 
-PRODUCTION_POTENTIAL = Potential
+PRODUCTION_POTENTIAL = Potansiyel
 
-CAST_EXPERIENCE = Experience
-CAST_FAME = Fame
-CAST_SKILL = Skill
-CAST_POWER = Power
-CAST_HUMOR = Humor
-CAST_CHARISMA = Charisma
-CAST_APPEARANCE = Appearance
+CAST_EXPERIENCE = Tecrübe
+CAST_FAME = Ün
+CAST_SKILL = Yetenek
+CAST_POWER = Güç
+CAST_HUMOR = Kapris
+CAST_CHARISMA = Karizma
+CAST_APPEARANCE = Görünüş
 
-TITLE = Title
-DESCRIPTION = Description
-EPISODE = Episode
-CLICK_TO_SELECT_PERSON = Click to select Person
-TOUCH_TO_SELECT_PERSON = Touch to select Person
+TITLE = Başlık
+DESCRIPTION = Açıklama
+EPISODE = Bölüm
+CLICK_TO_SELECT_PERSON = Kişiyi seçmek için tıklayın
+TOUCH_TO_SELECT_PERSON = Kişiyi seçmek için dokunun
 
-POINTSSET_OF_POINTSMAX_POINTS_SET = %POINTSSET%/%POINTSMAX% points set
-PRODUCTION_FOCUS_POINTS_NOT_SET_COMPLETELY = Production focus points not set completely
-NEED_TO_SPENT_AT_LEAST_ONE_POINT_OF_PRODUCTION_FOCUS_POINTS = At least one point has to be spent on focus points
-NO_PRODUCTION_COMPANY_SELECTED = No production company selected
-PRODUCTION_SETUP_NOT_DONE = Production setup not done
-PRODUCTION_SETUP_INCOMPLETE = Production setup incomplete
-EPISODES_NOT_IN_ORDER = Episodes not in order
-PRODUCTION_CONCEPTS = Shopping lists
+POINTSSET_OF_POINTSMAX_POINTS_SET = %POINTSSET%/%POINTSMAX% puan belirlendi.
+PRODUCTION_FOCUS_POINTS_NOT_SET_COMPLETELY = Yapım odak puanı tam olarak belirlenmedi.
+NEED_TO_SPENT_AT_LEAST_ONE_POINT_OF_PRODUCTION_FOCUS_POINTS = En azından 1 puan daha kullanılabilir.
+NO_PRODUCTION_COMPANY_SELECTED = Yapım şirketi seçilmedi
+PRODUCTION_SETUP_NOT_DONE = Yapım ayarları seçilmedi
+PRODUCTION_SETUP_INCOMPLETE = Yapım ayarlarında eksik
+EPISODES_NOT_IN_ORDER = Bölümler sıralı değil
+PRODUCTION_CONCEPTS = Alışveriş Listesi
 
-NO_PRESENT_SELECTED = No present selected
-BUY_PRESENTTITLE_FOR_PRICE = Buy %PRESENTTITLE% for %PRICE%
-BETTY_PRESENT_1 = foot spray
-BETTY_PRESENT_2 = dinner for two
-BETTY_PRESENT_3 = nose operation
-BETTY_PRESENT_4 = custom written novel
-BETTY_PRESENT_5 = pearl necklace
-BETTY_PRESENT_6 = Chinese hamster coat
-BETTY_PRESENT_7 = blood diamond necklace
-BETTY_PRESENT_8 = sports car
-BETTY_PRESENT_9 = ring
-BETTY_PRESENT_10= yacht
+NO_PRESENT_SELECTED = Hediye seçilmedi
+BUY_PRESENTTITLE_FOR_PRICE = %PRESENTTITLE% hediyesini %PRICE% karşılığı satın al
+BETTY_PRESENT_1 = ayak spreyi
+BETTY_PRESENT_2 = 2 kişilik akşam yemeği
+BETTY_PRESENT_3 = burun estetiği
+BETTY_PRESENT_4 = özel yazım hikaye
+BETTY_PRESENT_5 = inci gerdanlık
+BETTY_PRESENT_6 = Çinçila kürkü
+BETTY_PRESENT_7 = kanlı elmas gerdanlığı
+BETTY_PRESENT_8 = spor araba
+BETTY_PRESENT_9 = yüzük
+BETTY_PRESENT_10= yat
 
-SELECT_PERSON = Select person
-FINISHED_PLANNING = Finished planning
-FINISH_PLANNING = Finish planning
-AND_PAY_DOWN_MONEY = and pay down %money%
-PLANNING = Planning ...
-MONEY_TO_PAY_DOWN = %money% to pay down
-TAKE_OVER_SETTINGS = Take over settings
-PRODUCTION_COMPANY = Production company
-EDIT_TEXTS = Edit texts
+SELECT_PERSON = Kişiyi seç
+FINISHED_PLANNING = Planlama tamamlandı
+FINISH_PLANNING = Planlamayı tamamla
+AND_PAY_DOWN_MONEY = ve %money% öde
+PLANNING = Planlanıyor ...
+MONEY_TO_PAY_DOWN = %money% ödenmeli
+TAKE_OVER_SETTINGS = Ayarları benimse
+PRODUCTION_COMPANY = Yapım şirketi
+EDIT_TEXTS = Metin düzenle
 
-STUDIO_MANAGER = Studio manager
-STUDIO_MANAGER_TOOLTIP = Gives information about production and hands out new shopping lists
+STUDIO_MANAGER = Stüdyo Yöneticisi
+STUDIO_MANAGER_TOOLTIP = Yapım hakkında bilgi verir ve yeni alışveriş listesini oluşturur.
 
-MANAGE_BROADCASTED_NEWS = Manage broadcasted news
+MANAGE_BROADCASTED_NEWS = Yayınlanacak haberleri yönet
 
-RIGHT_CLICK_TO_DELETE = Right click to delete
+RIGHT_CLICK_TO_DELETE = Silmek için sağ tıkla
 
-YOUR_BALANCE_IS_POSITIVE_AGAIN = Your balance is positive again.
-YOUR_BALANCE_IS_NEGATIVE = Your balance is negative.
-YOU_ARE_NO_LONGER_IN_DANGER_TO_GET_FIRED = You are no longer in danger of being fired.
-YOU_HAVE_X_DAYS_TO_GET_INTO_THE_BLACK = You have %DAYS% to get into the black.
-YOU_HAVE_ONLY_TODAY_TO_GET_INTO_THE_BLACK = You have only today to get into the black.
-YOU_ARE_IN_DANGER_TO_GET_FIRED = You are in danger of being fired!
+YOUR_BALANCE_IS_POSITIVE_AGAIN = Hesap yine artıda
+YOUR_BALANCE_IS_NEGATIVE = Hesap ekside
+YOU_ARE_NO_LONGER_IN_DANGER_TO_GET_FIRED = Artık kovulma riskin yok
+YOU_HAVE_X_DAYS_TO_GET_INTO_THE_BLACK = Bütçeyi toplamak için %DAYS% günün kaldı.
+YOU_HAVE_ONLY_TODAY_TO_GET_INTO_THE_BLACK = Bugün bütçeyi toplamak ZORUNDASIN.
+YOU_ARE_IN_DANGER_TO_GET_FIRED = Kovulma riskin yüksek!
 
-PRODUCTION = Production
-TOTAL_COSTS = Total costs
-DURATION = Duration
-SUBHEADING = Subheading
-PRODUCTION_DETAILS = Production details
-PRODUCTION_FOCUS = Production focus
+PRODUCTION = Yapım
+TOTAL_COSTS = Toplam maliyet
+DURATION = Süre
+SUBHEADING = Alt başlık
+PRODUCTION_DETAILS = Yapım detayları
+PRODUCTION_FOCUS = Yapım odağı
 
-DO_NOT_SHOW_AGAIN = Do not show again
-DO_NOT_SHOW_ANY_TIPS = Do not show any tips
-SHOW_INTRODUCTORY_GUIDES = Show introductory guides
+DO_NOT_SHOW_AGAIN = Tekrar gösterme
+DO_NOT_SHOW_ANY_TIPS = Artık tüyo gösterme
+SHOW_INTRODUCTORY_GUIDES = Yardımcı bilgileri göster
 
-BOMB_DETONATION_IN_TVTOWER = Bomb detonation in TVTower 
-BOMB_DETONATION_IN_TVTOWER_TEXT = A bomb detonation unsettled the people of the famous TVTower. The bomb damaged the room "%ROOM%". Investigations are in full swing.
-TOASTMESSAGE_BOMB_DETONATION_IN_TVTOWER_TEXT = A bomb detonation damaged the room %ROOM%.
+BOMB_DETONATION_IN_TVTOWER = TVTower'da bomba patladı 
+BOMB_DETONATION_IN_TVTOWER_TEXT = TVTower'daki bomba sakinleri rahatsız etti. Bomba "%ROOM%" odasında patladı. İnceleme sürüyor.
+TOASTMESSAGE_BOMB_DETONATION_IN_TVTOWER_TEXT = Patlayan bomba %ROOM% odasını tahrip etti.
 
 BOMB_DETONATION_IN_TVTOWER_NO_CLUES = Attack on TVTower: No clues found
 BOMB_DETONATION_IN_TVTOWER_NO_CLUES_TEXT = Public authorities investigated after the attack in the famous TVTower. Unfortunately they weren't able to find any useful clues.
