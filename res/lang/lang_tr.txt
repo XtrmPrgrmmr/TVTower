@@ -514,72 +514,71 @@ DIALOGUE_BOSS_CHANGETOPIC1				=	Başka bir konuyu konuşamaz mıyız?
 DIALOGUE_BOSS_BACKTOWORK				=	Tamam, %PLAYERNAME%, Haydi iş başina!
 DIALOGUE_BOSS_BACKTOWORK_OK				=	Tamam patron, işe dönüyorum.
 
-DIALOGUE_SUPERMARKET_TITLE1 = Hey Dude !
-DIALOGUE_SUPERMARKET_TITLE2 = Hi %PLAYERNAME% !
-DIALOGUE_SUPERMARKET_TITLE3 = Howdy, %PLAYERNAME% !
-DIALOGUE_SUPERMARKET_TEXT1 = What do you want to do today?
-DIALOGUE_SUPERMARKET_TEXT2 = What can I do for you today??
-DIALOGUE_SUPERMARKET_TEXT3 = Are you able to do a good job on your own? I am going to have a joi... I am going to get some fresh air.
-DIALOGUE_SUPERMARKET_TEXT4 = Just do it, I still have a throbbing head ... that ...party yesterday...
+DIALOGUE_SUPERMARKET_TITLE1 = Hey Dostum!
+DIALOGUE_SUPERMARKET_TITLE2 = Merhaba %PLAYERNAME% !
+DIALOGUE_SUPERMARKET_TITLE3 = Naber, %PLAYERNAME% !
+DIALOGUE_SUPERMARKET_TEXT1 = Bugün ne istersin?
+DIALOGUE_SUPERMARKET_TEXT2 = Bugün senin için ne yapabilirim?
+DIALOGUE_SUPERMARKET_TEXT3 = Kendin için iyi birşey yapmak ister misin? Ben biraz temiz hava alacağım...
+DIALOGUE_SUPERMARKET_TEXT4 = Hadi yapalım, biraz başım ağrıyor... Dün akşamki partiden... MMmmm
 
-DIALOGUE_SUPERMARKET_PLAN_A_PRODUCTION = I want to plan a TV-production and to buy everything needed for it
-DIALOGUE_SUPERMARKET_BUY_A_PRESENT = I want to buy a present
-DIALOGUE_SUPERMARKET_GOODBYE1 = I'm off then. Bye bye.
-DIALOGUE_SUPERMARKET_GOODBYE2 = See you. Bye.
-DIALOGUE_SUPERMARKET_GOODBYE3 = Making tracks now. See you.
+DIALOGUE_SUPERMARKET_PLAN_A_PRODUCTION = Bir TV yapımı planlayacağım ve gereken herşeyi almalıyım.
+DIALOGUE_SUPERMARKET_BUY_A_PRESENT = Bir hediye alacağım.
+DIALOGUE_SUPERMARKET_GOODBYE1 = Öyleyse çıkıyorum. Görüşürüz.
+DIALOGUE_SUPERMARKET_GOODBYE2 = Görüşürüz.
+DIALOGUE_SUPERMARKET_GOODBYE3 = İşim var. Görüşürüz.
 
 
 #level 0 = formal, level>0 = informal
 
-DIALOGUE_BETTY_WELCOME_TEXT = Hello,\n\nhow can I help you?
-DIALOGUE_BETTY_WELCOME_LEVEL0_TEXT1 = Good Day!\n\nWhat drives you to the topmost floor?
-DIALOGUE_BETTY_WELCOME_LEVEL0_TEXT2 = Yes?\n\\nFor sure you are here to fetch latest Information about the Sammy.
-DIALOGUE_BETTY_WELCOME_LEVEL1_TEXT1 = Hello %PLAYERNAME%,\n\nwhat brings you to me this day?
-DIALOGUE_BETTY_WELCOME_LEVEL1_TEXT2 = Hmm?\n\nYou surely want to hear some news about the Sammy.
-DIALOGUE_BETTY_WELCOME_LEVEL2_TEXT1 = Hi %PLAYERNAME%,\n\nnice to see you again. Sit down please - so why are you here?
-DIALOGUE_BETTY_WELCOME_LEVEL2_TEXT2 = %PLAYERNAME%!?\n\nI think you rascal are just here for the Sammy news, aren't you?
-DIALOGUE_BETTY_WELCOME_LEVEL3_TEXT1 = Hi %PLAYERNAME%,\n\nour latest meeting was really nice. I hope we catch up again some more times.
-DIALOGUE_BETTY_WELCOME_LEVEL3_TEXT2 = Hey there!\n\nI'll make us some tea - hope you have some time to chat.
+DIALOGUE_BETTY_WELCOME_TEXT = Merhaba,\n\n Nasıl yardımcı olabilirim?
+DIALOGUE_BETTY_WELCOME_LEVEL0_TEXT1 = Merhaba!\n\n Seni en üst kata kadar getiren nedir??
+DIALOGUE_BETTY_WELCOME_LEVEL0_TEXT2 = Evet?\n\\n Eminim ki, Sammy ödülü ile ilgili son bilgileri istiyorsun?
+DIALOGUE_BETTY_WELCOME_LEVEL1_TEXT1 = Merhaba %PLAYERNAME%,\n\n Bugün seni bana ne getirdi?
+DIALOGUE_BETTY_WELCOME_LEVEL1_TEXT2 = Hmm?\n\n Sammy ile ilgili haberler mi istersin?
+DIALOGUE_BETTY_WELCOME_LEVEL2_TEXT1 = Merhaba %PLAYERNAME%,\n\n Seni tekrar gördüğüme sevindim. Lütfen otur, neden buradasın?
+DIALOGUE_BETTY_WELCOME_LEVEL2_TEXT2 = %PLAYERNAME%!?\n\n Sammy haberleri için buradasın, yanılıyor muyum?
+DIALOGUE_BETTY_WELCOME_LEVEL3_TEXT1 = Merhaba %PLAYERNAME%,\n\n Son görüşmemiz iyiydi. Sanırım biraz daha fazla zaman geçirmeliyiz?
+DIALOGUE_BETTY_WELCOME_LEVEL3_TEXT2 = Hey!\n\n Çay yapıyordum, biraz sohbet edebiliriz.
 
-DIALOGUE_BETTY_NO_AWARD_LEVEL0_TEXT1 = Currently no Sammy is awarded. I think in some days the race for points will start again.
-DIALOGUE_BETTY_NO_AWARD_LEVEL1_TEXT1 = Currently no Sammy is awarded. Maybe I can tell you more tomorrow.
-DIALOGUE_BETTY_AWARDINFORMATION_NO_FAVORITE_LEVEL0_TEXT1 = The %AWARDNAME%?\n\nThere is no favorite yet.
-DIALOGUE_BETTY_AWARDINFORMATION_YOU_ARE_FAVORITE_LEVEL0_TEXT1 = The %AWARDNAME%?\n\nCurrently it looks good for you.
-DIALOGUE_BETTY_AWARDINFORMATION_YOU_ARE_FAVORITE_LEVEL1_TEXT1 = The %AWARDNAME%?\n\nCurrently it looks good for you.
-DIALOGUE_BETTY_AWARDINFORMATION_YOU_ARE_AVERAGE_LEVEL0_TEXT1 = The %AWARDNAME%?\n\nThis I can tell: You are ranking amongst the others.
-DIALOGUE_BETTY_AWARDINFORMATION_YOU_ARE_AVERAGE_LEVEL1_TEXT1 = The %AWARDNAME%?\n\nThis I can tell: You are ranking amongst the others.
-DIALOGUE_BETTY_AWARDINFORMATION_YOU_ARE_NOT_FAVORITE_LEVEL0_TEXT1 = The %AWARDNAME%?\n\nTo win you will have to try harder.
-DIALOGUE_BETTY_AWARDINFORMATION_YOU_ARE_NOT_FAVORITE_LEVEL1_TEXT1 = The %AWARDNAME%?\n\nTo win you will have to try harder.
+DIALOGUE_BETTY_NO_AWARD_LEVEL0_TEXT1 = Sammy alamadın. Sanırım yakında yeni bir yarışma başlar...
+DIALOGUE_BETTY_NO_AWARD_LEVEL1_TEXT1 = Sammy alamadın. Sana yarın yeni bilgiler verebilirim.
+DIALOGUE_BETTY_AWARDINFORMATION_NO_FAVORITE_LEVEL0_TEXT1 = %AWARDNAME%?\n\n Henüz favori yok.
+DIALOGUE_BETTY_AWARDINFORMATION_YOU_ARE_FAVORITE_LEVEL0_TEXT1 = %AWARDNAME%?\n\n Sana yakın gibi.
+DIALOGUE_BETTY_AWARDINFORMATION_YOU_ARE_FAVORITE_LEVEL1_TEXT1 = %AWARDNAME%?\n\n Sana yakın gibi.
+DIALOGUE_BETTY_AWARDINFORMATION_YOU_ARE_AVERAGE_LEVEL0_TEXT1 = %AWARDNAME%?\n\n Şunu söyleyebilirim ki; Başarılısın.
+DIALOGUE_BETTY_AWARDINFORMATION_YOU_ARE_AVERAGE_LEVEL1_TEXT1 = %AWARDNAME%?\n\n Şunu söyleyebilirim ki; Başarılısın.
+DIALOGUE_BETTY_AWARDINFORMATION_YOU_ARE_NOT_FAVORITE_LEVEL0_TEXT1 = %AWARDNAME%?\n\n Kazanmak için daha çok çalışmalısın.
+DIALOGUE_BETTY_AWARDINFORMATION_YOU_ARE_NOT_FAVORITE_LEVEL1_TEXT1 = %AWARDNAME%?\n\n Kazanmak için daha çok çalışmalısın.
 
-DIALOGUE_BETTY_ASK_FOR_SAMMYINFORMATION = How is it with the current Sammy?
-DIALOGUE_BETTY_ASK_FOR_MASTERKEY = By chance - can't you lend me the master key?
-DIALOGUE_BETTY_CHANGETOPIC = Let's talk about something else
-DIALOGUE_BETTY_LEVEL0_CHANGETOPIC1 = Hope you do not mind if we talk about something else.
-DIALOGUE_BETTY_GOODBYE = Hmm, see you.
-DIALOGUE_BETTY_LEVEL0_GOODBYE = Uhmm, goodbye
-DIALOGUE_BETTY_LEVEL1_GOODBYE = See you again
-DIALOGUE_BETTY_LEVEL2_GOODBYE = Hey, I have to go. See you later.
-DIALOGUE_BETTY_LEVEL3_GOODBYE = Listen Betty, work is calling. Just away for a second.
+DIALOGUE_BETTY_ASK_FOR_SAMMYINFORMATION = Sammy'nin durumu nedir?
+DIALOGUE_BETTY_ASK_FOR_MASTERKEY = Maymuncuk anahtarı alabilir miyim?
+DIALOGUE_BETTY_CHANGETOPIC = Başka birşeyden bahsedelim.
+DIALOGUE_BETTY_LEVEL0_CHANGETOPIC1 = Başka bir konudan bahsedebilir miyiz?
+DIALOGUE_BETTY_GOODBYE = Hmm, görüşürüz.
+DIALOGUE_BETTY_LEVEL0_GOODBYE = Uhmm, güle güle
+DIALOGUE_BETTY_LEVEL1_GOODBYE = Tekrar görüşürüz.
+DIALOGUE_BETTY_LEVEL2_GOODBYE = Hey, gitmeliyim. Sonra görüşürüz.
+DIALOGUE_BETTY_LEVEL3_GOODBYE = Dinle Betty, iş çağırıyor. Çıkıyorum.
 
+DIALOGUE_STUDIO_BRING_SOME_SCRIPT = Merhaba %PLAYERNAME%,\n\n Bir senaryo al ve iyi birşeyler çekelim.
+DIALOGUE_STUDIO_SCRIPT_HINT = Hmmm, Senaryo hakkında detay veremeyeceğim. Henüz orayı kodlamamışlar. Ah şu yavaş geliştiriciler...
+DIALOGUE_STUDIO_PRODUCTIONCONCEPT_HINT = (TODO) Yapım süreci ile ilgili bilgiler.
+DIALOGUE_STUDIO_CURRENTPRODUCTION_INFORMATION = |b|%SCRIPTTITLE%|/b| senaryosunun yapımını mı istiyorsunuz?
+DIALOGUE_STUDIO_CURRENTPRODUCTION_INFORMATION_1_PRODUCTION_PLANNED = Senaryonun |b|1 yapımı|/b| planlandı.
+DIALOGUE_STUDIO_CURRENTPRODUCTION_INFORMATION_X_PRODUCTIONS_PLANNED = Senaryonun |b|%X% adet yapımı|/b| planlandı.
+DIALOGUE_STUDIO_CURRENTPRODUCTION_INFORMATION_1_PRODUCTION_DONE = Şu ana kadar senaryonun |b|1 yapımı|/b| bitti.
+DIALOGUE_STUDIO_CURRENTPRODUCTION_INFORMATION_X_PRODUCTIONS_DONE = Şu ana kadar senaryonun |b|%X% adet yapımı|/b| bitti.
+DIALOGUE_STUDIO_CURRENTPRODUCTION_INFORMATION_X_PRODUCTIONS_PLANNED_AND_Y_PRODUCTIONS_DONE = Senaryonun |b|%X% adet yapımı|/b| planlandı ve |b|%Y% adet|/b| bitti.
+DIALOGUE_STUDIO_SHOPPING_LIST_LIMIT_REACHED = Bu arada, Alışveriş listende yer kalmadı. Bir parça çıkartmadan yenisini veremem. (Silmek için; bir alışveriş listesi seç ve sağ tuşa tıkla)
+DIALOGUE_STUDIO_YOU_NEED_TO_FINISH_PRODUCTION_PLANNING = Yapımı başlatmak için önce tüm malzemeyi SÜPERMARKETTEN satın alman gerekiyor.
 
-DIALOGUE_STUDIO_BRING_SOME_SCRIPT = Hi %PLAYERNAME%,\n\nBring a script and we might be able to produce something nice.
-DIALOGUE_STUDIO_SCRIPT_HINT = Hmmm, I cannot tell you details about this script. Maybe I am allowed to tell more in a later version of the game. This depends on the developers *shrug*.
-DIALOGUE_STUDIO_PRODUCTIONCONCEPT_HINT = (TODO) Offer information about the production concept.
-DIALOGUE_STUDIO_CURRENTPRODUCTION_INFORMATION = So you want to produce |b|%SCRIPTTITLE%|/b|?
-DIALOGUE_STUDIO_CURRENTPRODUCTION_INFORMATION_1_PRODUCTION_PLANNED = So far |b|1 production|/b| of this script is planned.
-DIALOGUE_STUDIO_CURRENTPRODUCTION_INFORMATION_X_PRODUCTIONS_PLANNED = So far |b|%X% productions|/b| of this script are planned.
-DIALOGUE_STUDIO_CURRENTPRODUCTION_INFORMATION_1_PRODUCTION_DONE = Up to now |b|1 production|/b| of this script was done.
-DIALOGUE_STUDIO_CURRENTPRODUCTION_INFORMATION_X_PRODUCTIONS_DONE = Up to now |b|%X% productions|/b| of this script were done.
-DIALOGUE_STUDIO_CURRENTPRODUCTION_INFORMATION_X_PRODUCTIONS_PLANNED_AND_Y_PRODUCTIONS_DONE = To date |b|%X% productions|/b| of this script are planned and |b|%Y%|/b| are done.
-DIALOGUE_STUDIO_SHOPPING_LIST_LIMIT_REACHED = By the way: There is no more space left for further shopping lists. I cannot give you another one until you remove one first (pick up a shopping list and deletet it with right button click).
-DIALOGUE_STUDIO_YOU_NEED_TO_FINISH_PRODUCTION_PLANNING = To be able to start the production you first of all have to finish the production planning in the supermarket.
-
-DIALOGUE_STUDIO_START_PRODUCTION = Start production
-DIALOGUE_STUDIO_START_ALL_X_POSSIBLE_PRODUCTIONS = Start all possible productions (%X%).
-DIALOGUE_STUDIO_ASK_FOR_ANOTHER_SHOPPINGLIST = I need another shopping list for this script.
-DIALOGUE_STUDIO_ASK_FOR_A_SHOPPINGLIST = I need a shopping list for this script.
-DIALOGUE_STUDIO_GOODBYE1 = Bye.
-DIALOGUE_STUDIO_GOODBYE2 = Goodbye.
+DIALOGUE_STUDIO_START_PRODUCTION = Yapımı başlat
+DIALOGUE_STUDIO_START_ALL_X_POSSIBLE_PRODUCTIONS = Tüm olası yapımları (%X%) başlat.
+DIALOGUE_STUDIO_ASK_FOR_ANOTHER_SHOPPINGLIST = Bu senaryo için bir alışveriş listesine daha ihtiyacım var.
+DIALOGUE_STUDIO_ASK_FOR_A_SHOPPINGLIST = Bu senaryo için bir alışveriş listesine ihtiyacım var.
+DIALOGUE_STUDIO_GOODBYE1 = Görüşürüz.
+DIALOGUE_STUDIO_GOODBYE2 = Güle güle.
 
 SHOW_PLAYERS = Oyuncuları göster
 PURCHASE = Satın Al
@@ -592,7 +591,7 @@ SELECT_STATION = İstasyon Seç
 BUY_STATION = İstasyonu Satın Al
 TOO_EXPENSIVE = Çok pahalı
 SELL_STATION = İstasyon Sat
-UNSELLABLE = unsellable
+UNSELLABLE = satılamaz
 
 UNDER_CONSTRUCTION = Yapım Aşamasında
 READY_AT_TIME_X = Hazır olacağı zaman; %TIME%
@@ -621,10 +620,10 @@ TOMORROW = Tomorrow
 TODAY = Bugün
 YESTERDAY = Dün
 TWO_DAYS_AGO = 2 gün önce
-IN_X_DAYS = In %DAYS% days
-X_DAYS_AGO = %DAYS% days ago
+IN_X_DAYS = %DAYS% gün içinde
+X_DAYS_AGO = %DAYS% gün önce
 
-INFOMERCIAL = Infomercial
+INFOMERCIAL = Kamu spotu
 SPECIAL_NEWS_BROADCAST = Özel Haberler
 
 24_HOURS_GAMEDAY = 24 saatlik Oyun Günü
@@ -646,9 +645,9 @@ NAME_OF_SAVEGAME = Kayıt İsmi
 OVERWRITE_SAVEGAME = Üzerine Yazılsın mı?
 DO_YOU_REALLY_WANT_TO_OVERWRITE_SAVEGAME_X = Gerçekten Kayıtlı oyun %SAVEGAME% silinsin mi?
 
-CREDIT_REPAID = credit repaid
-CREDIT_TAKEN = credit taken
-ACCOUNT_BALANCE_VALUE = account balance
+CREDIT_REPAID = kredi geri ödendi
+CREDIT_TAKEN = kredi alındı
+ACCOUNT_BALANCE_VALUE = bütçe durumu
 
 ADCONTRACT_FINISHED = Reklam Kontratı tamamlandı
 ADCONTRACT_FAILED = Reklam Kontratı Başarısız
@@ -708,15 +707,15 @@ SLOW_WIND_WITH_X_AND_GUST_OF_WIND_WITH_Y1 = Hafif esinti %MINWINDVELOCITY% km/s 
 WIND_VELOCITIES_ARE_BETWEEN_X_AND_Y1 = Rüzgarın hızı %MINWINDVELOCITY% ile %MAXWINDVELOCITY% km/s arasında.
 WIND_VELOCITY_IS_CONSTANT_AT_X1 = Rüzgarın şiddeti %WINDVELOCITY% km/s.
 
-NEWS_TERROR_GROUP1_LEVEL1_TITLE1 = Ambassador of the PR Duban offends his counterpart
-NEWS_TERROR_GROUP1_LEVEL1_TEXT1 =  It is a scandal: an ambassador of PR Duban insulted his counterpart from the FR Duban.
-NEWS_TERROR_GROUP2_LEVEL1_TITLE1 = Ambassador of FR Duban insults neighbours.
-NEWS_TERROR_GROUP2_LEVEL1_TEXT1 = This cannot be true: an ambassador of FR Duban insulted the representatives of the PR Duban.
+NEWS_TERROR_GROUP1_LEVEL1_TITLE1 = PR Duban büyükelçisi mevkidaşı ile tartıştı.
+NEWS_TERROR_GROUP1_LEVEL1_TEXT1 =  Bu bir skandal: PR Duban büyükelçisi FR Duban büyükelçisine hakaret etti.
+NEWS_TERROR_GROUP2_LEVEL1_TITLE1 = FR Duban büyükelçisi komşusu ile kavga etti.
+NEWS_TERROR_GROUP2_LEVEL1_TEXT1 = Bu doğru olamaz: FR Duban büyükelçisi PR Duban temsilcisine hakaret etti.
 
-NEWS_TERROR_GROUP1_LEVEL2_TITLE1 = Ambassador beaten
-NEWS_TERROR_GROUP1_LEVEL2_TEXT1 = On his way home, the Ambassador of the PR Duban was knocked out in the basement garage. Witnesses saw a car of FR Duban drive off.
-NEWS_TERROR_GROUP2_LEVEL2_TITLE1 = Apartment of an ambassador devastated
-NEWS_TERROR_GROUP2_LEVEL2_TEXT1 = The apartment of the Ambassador of the FR Duban was devastated. Clues point to the circles of VR Duban ...
+NEWS_TERROR_GROUP1_LEVEL2_TITLE1 = Büyükelçi hırpalandı.
+NEWS_TERROR_GROUP1_LEVEL2_TEXT1 = Eve giderken, PR Duban büyükelçisi evinin garajında dövüldü. FR Duban plakalı bir aracın olay yerinden kaçarken görüldü.
+NEWS_TERROR_GROUP2_LEVEL2_TITLE1 = Büyükelçinin evi tahrip edildi.
+NEWS_TERROR_GROUP2_LEVEL2_TEXT1 = FR Duban büyükelçisinin evi tahrip edildi. İpuçları VR Duban'ı işaret ediyor.
 
 NEWS_TERROR_GROUP1_LEVEL3_TITLE1 = VR Duban threatens retaliation
 NEWS_TERROR_GROUP1_LEVEL3_TEXT1 = The VR Duban openly threatens with revenge. The culprits were allegedly found. The situation is tough.
