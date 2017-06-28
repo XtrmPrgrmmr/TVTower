@@ -827,195 +827,194 @@ BOMB_DETONATION_IN_TVTOWER = TVTower'da bomba patladı
 BOMB_DETONATION_IN_TVTOWER_TEXT = TVTower'daki bomba sakinleri rahatsız etti. Bomba "%ROOM%" odasında patladı. İnceleme sürüyor.
 TOASTMESSAGE_BOMB_DETONATION_IN_TVTOWER_TEXT = Patlayan bomba %ROOM% odasını tahrip etti.
 
-BOMB_DETONATION_IN_TVTOWER_NO_CLUES = Attack on TVTower: No clues found
-BOMB_DETONATION_IN_TVTOWER_NO_CLUES_TEXT = Public authorities investigated after the attack in the famous TVTower. Unfortunately they weren't able to find any useful clues.
+BOMB_DETONATION_IN_TVTOWER_NO_CLUES = TVTower'a Saldırı: İpucu yok
+BOMB_DETONATION_IN_TVTOWER_NO_CLUES_TEXT = Ünlü TVTower'a yapılan saldırı sonrası yetkililer inceleme yaptı. Maalesef ipucu yok...
 
-BOMB_DETONATION_IN_TVTOWER_FOUND_CLUES = Attack on TVTower: Clues found
-BOMB_DETONATION_IN_TVTOWER_FOUND_CLUES_TEXT = Public authorities investigated after the attack in the famous TVTower - with success! Apparently resident TV channels (%CHANNELS%) assisted unwillingly with their roomsign-switch-games.
+BOMB_DETONATION_IN_TVTOWER_FOUND_CLUES = TVTower'a Saldırı: İlk İpuçları
+BOMB_DETONATION_IN_TVTOWER_FOUND_CLUES_TEXT = Ünlü TVTower'a yapılan saldırı sonrası yetkililer inceleme yaptı. Görünen, oda tabeleası değişimi oyunu,(%CHANNELS%) kanalında patlamayı getirdi.
 
-INGAME_HELP_TEXT_SCREEN_EMPTYROOM = Sorry\n\nThis room is still without function. We are working on it!
-INGAME_HELP_TITLE_SCREEN_EMPTYROOM = OUT OF ORDER
+INGAME_HELP_TEXT_SCREEN_EMPTYROOM = Üzgünüm\n\nBu odada sorun var! Üzerinde çalışıyoruz.
+INGAME_HELP_TITLE_SCREEN_EMPTYROOM = KAPALI
 
-YOU_JUST_COMPLETED_ACHIEVEMENTTITLE = You just completed "%ACHIEVEMENTTITLE%".
-ACHIEVEMENT_COMPLETED = Achievement completed
-REWARD = Reward
-TASK = Task
+YOU_JUST_COMPLETED_ACHIEVEMENTTITLE = "%ACHIEVEMENTTITLE%" tamamlandı.
+ACHIEVEMENT_COMPLETED = Başarı geldi.
+REWARD = Ödül
+TASK = Görev
 
-ACHIEVEMENTS = Achievements
-ACHIEVEMENTCATEGORY_CATEGORIES = Categories
-ACHIEVEMENTCATEGORY_ALL = All Categories
-ACHIEVEMENTCATEGORY_NEWS = News
-ACHIEVEMENTCATEGORY_PROGRAMMES = Programmes
-ACHIEVEMENTCATEGORY_STATIONMAP = Stationmap
-ACHIEVEMENTCATEGORY_MISC = Misc
+ACHIEVEMENTS = Başarılar
+ACHIEVEMENTCATEGORY_CATEGORIES = Kategoriler
+ACHIEVEMENTCATEGORY_ALL = Tüm Kategoriler
+ACHIEVEMENTCATEGORY_NEWS = Haberler
+ACHIEVEMENTCATEGORY_PROGRAMMES = Programlar
+ACHIEVEMENTCATEGORY_STATIONMAP = İstasyon Haritası
+ACHIEVEMENTCATEGORY_MISC = Diğer
 
-ARCHIVED_MESSAGES = Archived Messages
-READ_MESSAGES_YOU_MIGHT_HAVE_MISSED = Read messages you might have missed
-MESSAGECATEGORY_CATEGORIES = Categories
-MESSAGECATEGORY_ALL = All Categories
-MESSAGECATEGORY_MONEY = Money / Finances
-MESSAGECATEGORY_ACHIEVEMENTS = Achievements
-MESSAGECATEGORY_AWARDS = Awards/Sammy
-MESSAGECATEGORY_MISC = Misc
+ARCHIVED_MESSAGES = Saklı Mesajlar
+READ_MESSAGES_YOU_MIGHT_HAVE_MISSED = Gözden kaçırmış olabileceğiniz mesajları okuyun.
+MESSAGECATEGORY_CATEGORIES = Kategoriler
+MESSAGECATEGORY_ALL = Tüm Kategoriler
+MESSAGECATEGORY_MONEY = Para / Finans
+MESSAGECATEGORY_ACHIEVEMENTS = Başarılar
+MESSAGECATEGORY_AWARDS = Ödüller/Sammy
+MESSAGECATEGORY_MISC = Diğer
 
-DIFFICULTY_EASY = Easy
+DIFFICULTY_EASY = Kolay
 DIFFICULTY_NORMAL = Normal
-DIFFICULTY_HARD = Hard
-DIFFICULTY_CUSTOM = Custom
+DIFFICULTY_HARD = Zor
+DIFFICULTY_CUSTOM = Özel
 
-GAMETIME = Time
-PLAYER = Player
+GAMETIME = Zaman
+PLAYER = Oyuncu
 
-GAME = Game
+GAME = Oyun
 
-GAMESPEED = Game speed
-SET_SPEED_TO_X = Set speed to %SPEED%
-MANUAL = Manual
-HELP = Help
-SHOW_HELP = Show help
+GAMESPEED = Oyun Hızı
+SET_SPEED_TO_X = Hızı %SPEED% yap
+MANUAL = Kılavuz
+HELP = Yardım
+SHOW_HELP = Yardım Göster
 
-NEWSPLANSIGN_TO_THE_TEAM = To the team
-NEWSPLANSIGN_SEND_THE_FOLLOWING_NEWS = send the following news:
+NEWSPLANSIGN_TO_THE_TEAM = Takıma
+NEWSPLANSIGN_SEND_THE_FOLLOWING_NEWS = Bu haberleri yayınla:
 
-SCORE_POINT = Point
-SCORE_POINTS = Points
+SCORE_POINT = Puan
+SCORE_POINTS = Puan
 
-SPORT_ICEHOCKEY = Ice hockey
+SPORT_ICEHOCKEY = Buz Hokeyi
 
-SPORT_SOCCER = Soccer
-SPORT_SOCCER_TEAMREPORT_MATCHWIN_S1 = and forward %TEAM1STAR% win %MATCHKIND% against 
-SPORT_SOCCER_TEAMREPORT_MATCHWIN_P1 = and forward %TEAM1STAR% win %MATCHKIND% against 
-SPORT_SOCCER_TEAMREPORT_MATCHWIN_S2 = defeats thanks to a converted corner kick by %TEAM1STARSHORT% %MATCHKIND%
-SPORT_SOCCER_TEAMREPORT_MATCHWIN_P2 = defeat thanks to a converted corner kick by %TEAM1STARSHORT% %MATCHKIND%
-SPORT_SOCCER_TEAMREPORT_MATCHWIN_S3 = defeats thanks to saved penalty by keeper %TEAM1KEEPERSHORT% %MATCHKIND%
-SPORT_SOCCER_TEAMREPORT_MATCHWIN_P3 = defeat thanks to saved penalty by keeper %TEAM1KEEPERSHORT% %MATCHKIND%
+SPORT_SOCCER = Futbol
+SPORT_SOCCER_TEAMREPORT_MATCHWIN_S1 = ve %TEAM1STAR% , %MATCHKIND% kazandı. Rakip; 
+SPORT_SOCCER_TEAMREPORT_MATCHWIN_P1 = ve %TEAM1STAR% , %MATCHKIND% kazandı. Rakip; 
+SPORT_SOCCER_TEAMREPORT_MATCHWIN_S2 = yendi ve %TEAM1STARSHORT% , bir rövaşata golüyle %MATCHKIND% yendi.
+SPORT_SOCCER_TEAMREPORT_MATCHWIN_P2 = yendi ve %TEAM1STARSHORT% , bir rövaşata golüyle %MATCHKIND% yendi.
+SPORT_SOCCER_TEAMREPORT_MATCHWIN_S3 = yendi, çünkü %TEAM1KEEPERSHORT% kalecisi penaltıyı kurtardı ve %MATCHKIND%
+SPORT_SOCCER_TEAMREPORT_MATCHWIN_P3 = yendi, çünkü %TEAM1KEEPERSHORT% kalecisi penaltıyı kurtardı ve  %MATCHKIND%
 
-SPORT_SOCCER_TEAMREPORT_MATCHLOOSE_S1 = goes under by an oversight of keeper %TEAM1KEEPERSHORT% and %MATCHKIND% against
-SPORT_SOCCER_TEAMREPORT_MATCHLOOSE_P1 = go under by an oversight of keeper %TEAM1KEEPERSHORT% and %MATCHKIND% against
-SPORT_SOCCER_TEAMREPORT_MATCHLOOSE_S2 = loses with disappointed keeper %TEAM1KEEPER% %MATCHKIND% against
-SPORT_SOCCER_TEAMREPORT_MATCHLOOSE_P2 = lose with disappointed keeper %TEAM1KEEPER% %MATCHKIND% against
+SPORT_SOCCER_TEAMREPORT_MATCHLOOSE_S1 = Kaleci %TEAM1KEEPERSHORT% hata yaptı ve %MATCHKIND% kazandı. Rakip; 
+SPORT_SOCCER_TEAMREPORT_MATCHLOOSE_P1 = Kaleci %TEAM1KEEPERSHORT% hata yaptı ve %MATCHKIND% kazandı. Rakip;
+SPORT_SOCCER_TEAMREPORT_MATCHLOOSE_S2 = kaybetti, kaleci %TEAM1KEEPER% hayalkırıklığı yarattığı %MATCHKIND% maçta. Rakip;
+SPORT_SOCCER_TEAMREPORT_MATCHLOOSE_P2 = kaybetti, kaleci %TEAM1KEEPER% hayalkırıklığı yarattığı %MATCHKIND% maçta. Rakip;
 
-SPORT_SOCCER_TEAMREPORT_MATCHKIND1 = after %PLAYTIMEMINUTES% minutes of doubtful soccer
-SPORT_SOCCER_TEAMREPORT_MATCHKIND2 = after %PLAYTIMEMINUTES% minutes of tactical duels
-SPORT_SOCCER_TEAMREPORT_MATCHKIND3 = after exciting %PLAYTIMEMINUTES% minutes of lawn sport
+SPORT_SOCCER_TEAMREPORT_MATCHKIND1 = %PLAYTIMEMINUTES% dakikalık kötü futbol sonrası.
+SPORT_SOCCER_TEAMREPORT_MATCHKIND2 = %PLAYTIMEMINUTES% dakikalık taktik çarpışması sonrası.
+SPORT_SOCCER_TEAMREPORT_MATCHKIND3 = %PLAYTIMEMINUTES% dakikalık muhteşem futbol sonrası.
 
+SPORT_TEAMREPORT_MATCHWIN_S1 = kazandı. Teşekkürler, %TEAM1STAR%
+SPORT_TEAMREPORT_MATCHWIN_P1 = kazandı. Teşekkürler, %TEAM1STAR%
+SPORT_TEAMREPORT_MATCHWIN_S2 = yendi %MATCHKIND%
+SPORT_TEAMREPORT_MATCHWIN_P2 = yendi %MATCHKIND%
+SPORT_TEAMREPORT_MATCHWIN_S3 = kazandı: %MATCHSCORE1TEXT%. Rakip;
+SPORT_TEAMREPORT_MATCHWIN_P3 = kazandı: %MATCHSCORE1TEXT%. Rakip;
+SPORT_TEAMREPORT_MATCHWIN_S4 = alt etti
+SPORT_TEAMREPORT_MATCHWIN_P4 = alt etti
 
-SPORT_TEAMREPORT_MATCHWIN_S1 = wins thanks to %TEAM1STAR%
-SPORT_TEAMREPORT_MATCHWIN_P1 = win thanks to %TEAM1STAR%
-SPORT_TEAMREPORT_MATCHWIN_S2 = defeats %MATCHKIND%
-SPORT_TEAMREPORT_MATCHWIN_P2 = defeat %MATCHKIND%
-SPORT_TEAMREPORT_MATCHWIN_S3 = wins %MATCHSCORE1TEXT% against
-SPORT_TEAMREPORT_MATCHWIN_P3 = win %MATCHSCORE1TEXT% against
-SPORT_TEAMREPORT_MATCHWIN_S4 = overcomes
-SPORT_TEAMREPORT_MATCHWIN_P4 = overcome
+SPORT_TEAMREPORT_MATCHDRAW_S1 = şans verdi: %MATCHSCOREMAXTEXT% . Rakip;
+SPORT_TEAMREPORT_MATCHDRAW_P1 = şans verdi: %MATCHSCOREMAXTEXT% . Rakip;
+SPORT_TEAMREPORT_MATCHDRAW_S2 = sadece beraberliği kurtardı. Rakip;
+SPORT_TEAMREPORT_MATCHDRAW_P2 = sadece beraberliği kurtardı. Rakip;
+SPORT_TEAMREPORT_MATCHDRAW_S3 = eve puanla döndü: %MATCHSCORE1TEXT% . Rakip;
+SPORT_TEAMREPORT_MATCHDRAW_P3 = eve puanla döndü: %MATCHSCORE1TEXT% . Rakip;
 
-SPORT_TEAMREPORT_MATCHDRAW_S1 = gives away the chance of %MATCHSCOREMAXTEXT% against
-SPORT_TEAMREPORT_MATCHDRAW_P1 = gave away the chance of %MATCHSCOREMAXTEXT% against
-SPORT_TEAMREPORT_MATCHDRAW_S2 = only reaches a draw against
-SPORT_TEAMREPORT_MATCHDRAW_P2 = only reach a draw against
-SPORT_TEAMREPORT_MATCHDRAW_S3 = brings home %MATCHSCORE1TEXT% against
-SPORT_TEAMREPORT_MATCHDRAW_P3 = bring home %MATCHSCORE1TEXT% against
+SPORT_TEAMREPORT_MATCHLOOSE_S1 = , %MATCHKIND% maçta 3 değerli puanı hediye etti. Rakip;
+SPORT_TEAMREPORT_MATCHLOOSE_P1 = , %MATCHKIND% maçta 3 değerli puanı hediye etti. Rakip;
+SPORT_TEAMREPORT_MATCHLOOSE_S2 = , %MATCHKIND% maçta mağlup oldu. Rakip; 
+SPORT_TEAMREPORT_MATCHLOOSE_P2 = , %MATCHKIND% maçta mağlup oldu. Rakip;
+SPORT_TEAMREPORT_MATCHLOOSE_S3 = , %MATCHKIND% maçta yenildi: %MATCHSCORE2TEXT% . Rakip;
+SPORT_TEAMREPORT_MATCHLOOSE_P3 = , %MATCHKIND% maçta yenildi: %MATCHSCORE2TEXT% . Rakip;
 
-SPORT_TEAMREPORT_MATCHLOOSE_S1 = gifts %MATCHKIND% 3 precious points to
-SPORT_TEAMREPORT_MATCHLOOSE_P1 = gift %MATCHKIND% 3 precious points to
-SPORT_TEAMREPORT_MATCHLOOSE_S2 = disgraces itself %MATCHKIND% against
-SPORT_TEAMREPORT_MATCHLOOSE_P2 = disgrace itself %MATCHKIND% against
-SPORT_TEAMREPORT_MATCHLOOSE_S3 = gifts %MATCHKIND% %MATCHSCORE2TEXT% to
-SPORT_TEAMREPORT_MATCHLOOSE_P3 = gift %MATCHKIND% %MATCHSCORE2TEXT% to
-
-SPORT_TEAMREPORT_MATCHKIND1 = deservedly
-SPORT_TEAMREPORT_MATCHKIND2 = flukey
-SPORT_TEAMREPORT_MATCHKIND3 = after a long %PLAYTIMEMINUTES% minutes of match time
-SPORT_TEAMREPORT_MATCHKIND4 = in a racket of a game
-SPORT_TEAMREPORT_MATCHKIND5 = in a nail-biter
-SPORT_TEAMREPORT_MATCHKIND6 = in a sold out stadium
-SPORT_TEAMREPORT_MATCHKIND7 = in front of fully occupied coulisses
-SPORT_TEAMREPORT_MATCHKIND8 = in front of a chanting audience
-SPORT_TEAMREPORT_MATCHKIND9 = in front of a frenetic audience
-SPORT_TEAMREPORT_MATCHKIND10 = with almost empty fanblock
-SPORT_TEAMREPORT_MATCHKIND11 = in front of filled stadiums
-SPORT_TEAMREPORT_MATCHRESULT = %TEAMA1RTICLE1% %TEAM1% %MATCHRESULT% %TEAM2ARTICLE2% %TEAM2% with %FINALSCORE%.
+SPORT_TEAMREPORT_MATCHKIND1 = hakkıyla
+SPORT_TEAMREPORT_MATCHKIND2 = şansla
+SPORT_TEAMREPORT_MATCHKIND3 = uzun %PLAYTIMEMINUTES% dakika sonra
+SPORT_TEAMREPORT_MATCHKIND4 = maçın telaşıyla
+SPORT_TEAMREPORT_MATCHKIND5 = heyecanla
+SPORT_TEAMREPORT_MATCHKIND6 = tıklım tıklım statta
+SPORT_TEAMREPORT_MATCHKIND7 = dolu tribünler önünde
+SPORT_TEAMREPORT_MATCHKIND8 = seyircilerin şarkıları önünde
+SPORT_TEAMREPORT_MATCHKIND9 = çılgın tezahüratlar eşliğinde
+SPORT_TEAMREPORT_MATCHKIND10 = bomboş tribünler önünde
+SPORT_TEAMREPORT_MATCHKIND11 = dolu satta
+SPORT_TEAMREPORT_MATCHRESULT = %TEAMA1RTICLE1% %TEAM1% %MATCHRESULT% %TEAM2ARTICLE2% %TEAM2% : %FINALSCORE%.
 #Variant A = "_der_ FC gewinnt"
 #Variant B = "besiegt _den_ FC"
-SPORT_TEAMNAME_S_VARIANT_A = the
-SPORT_TEAMNAME_S_VARIANT_B = the
-SPORT_TEAMNAME_P_VARIANT_A = the
-SPORT_TEAMNAME_P_VARIANT_B = the
+SPORT_TEAMNAME_S_VARIANT_A = .
+SPORT_TEAMNAME_S_VARIANT_B = .
+SPORT_TEAMNAME_P_VARIANT_A = .
+SPORT_TEAMNAME_P_VARIANT_B = .
 
 SPORT_PROGRAMME_TITLE = %SPORTNAME%: %LEAGUENAME% %SEASONYEARSTART%
-SPORT_PROGRAMME_ALL_X_MATCHES_OF_LEAGUEX_IN_SEASON_X = All %MATCHCOUNT% upcoming matches of %LEAGUENAME% in season %SEASONYEARSTART%.
-SPORT_PROGRAMME_MATCH_TIMES = Match times
+SPORT_PROGRAMME_ALL_X_MATCHES_OF_LEAGUEX_IN_SEASON_X =  %LEAGUENAME% liginde, %SEASONYEARSTART% sezonundaki %MATCHCOUNT% gelecek maç.
+SPORT_PROGRAMME_MATCH_TIMES = Maç zamanları
 
-SPORT_PROGRAMME_PLAYOFF_MATCH = Playoff match.
-SPORT_PROGRAMME_MATCH_OF_LEAGUEX = Match of %LEAGUENAME%.
-SPORT_PLAYOFFS_LONG = "Playoffs"
+SPORT_PROGRAMME_PLAYOFF_MATCH = Play-off maçı.
+SPORT_PROGRAMME_MATCH_OF_LEAGUEX = %LEAGUENAME% maçı.
+SPORT_PLAYOFFS_LONG = "Play-offlar"
 SPORT_PLAYOFFS_SHORT = "PO"
 
-SPORT_AFTER_PENALTY_SHORT = "a.p."
-SPORT_AFTER_OVERTIME_SHORT = "a.o."
+SPORT_AFTER_PENALTY_SHORT = "pen"
+SPORT_AFTER_OVERTIME_SHORT = "uza"
 
-CLASSIFICATION = classification
-REMAINING_TERM = remaining term
-SPOTS_TO_SEND = spots to send
-NAME = name
+CLASSIFICATION = sınıflandırma
+REMAINING_TERM = kalan süre
+SPOTS_TO_SEND = yayınlanacak
+NAME = isim
 
-AWARDNAME_CULTURE = Sammy "for Culture"
-AWARDNAME_NEWS = Sammy "for News"
-AWARDNAME_AUDIENCE = Sammy "for Audience"
-AWARDNAME_CUSTOMPRODUCTION = Sammy "for custom productions"
-AWARD_WON = Award won
-YOU_WON_THE_AWARDNAME = You won the %AWARDNAME%.
-CHANNEL_IMAGE = channel image
-FOR_X_HOURS = for %X% hours
-FOR_X_HOUR = for %X% hour
-ATTRACTIVITY = attractivity
+AWARDNAME_CULTURE = Sammy "KÜLTÜR"
+AWARDNAME_NEWS = Sammy "HABER"
+AWARDNAME_AUDIENCE = Sammy "SEYİRCİ"
+AWARDNAME_CUSTOMPRODUCTION = Sammy "ÖZEL YAPIMLAR"
+AWARD_WON = Ödül kazanan
+YOU_WON_THE_AWARDNAME = %AWARDNAME% ödülünü kazandınız.
+CHANNEL_IMAGE = kanal imajı
+FOR_X_HOURS = %X% saat
+FOR_X_HOUR = %X% saat
+ATTRACTIVITY = çekicilik
 
-COUNTRYNAME_ISO3166_DE = Deutschland
+COUNTRYNAME_ISO3166_DE = ALMANYA
 COUNTRYNAME_ISO3166_DE_SHORT = D
 
 ABBREVIATION_YEARS = Y.
 
-BEFORE_XTH_PLAYER_RESTART = Before %X%. player restart
+BEFORE_XTH_PLAYER_RESTART = %X%. oyuncu yeniden başlamadan önce
 
-ROOM_OVERVIEW = Room overview
-CANCEL_OR_RENT_ROOMS = Cancel or rent rooms
-PREVIOUS_TENANT = Previous tenant
-ORIGINAL_TENANT = Original tenant
-RERENT = Rerent
+ROOM_OVERVIEW = Oda Önizleme
+CANCEL_OR_RENT_ROOMS = Oda kirala veya vazgeç
+PREVIOUS_TENANT = Önceki kiracı
+ORIGINAL_TENANT = Orjinal kiracı
+RERENT = Tekrar kirala
 
-IN_XTIME_AFTER_CANCELLATION = In %X% after cancellation
-IN_XTIME = In %X%
+IN_XTIME_AFTER_CANCELLATION = İptal sonrası %X% sürede.
+IN_XTIME = %X%s sürede
 
-HOUR = hour
-HOURS = hours
-MINUTE = minute
-MINUTES = minutes
+HOUR = saat
+HOURS = saat
+MINUTE = dakika
+MINUTES = dakika
 
-CONFIRM = confirm
-CLICK_AGAIN_TO_RENT = Click again to rent
-CLICK_AGAIN_TO_CANCEL_RENT = Click again to cancel rent
+CONFIRM = onayla
+CLICK_AGAIN_TO_RENT = Kiralamak için tekrar tıklayın
+CLICK_AGAIN_TO_CANCEL_RENT = Vazgeçmek için tekrar tıklayın
 
-ROOMAGENCY_SIZE_TEXT1 = Perfectly dimensioned room of the size %SIZE%.
-ROOMAGENCY_SIZE_TEXT2 = Room in the practical size of %SIZE%.
+ROOMAGENCY_SIZE_TEXT1 = %SIZE% büyüklüğünde mükemmel oda.
+ROOMAGENCY_SIZE_TEXT2 = %SIZE% büyüklüğünde oda.
 
-ROOMAGENCY_ROOM_X_IN_RANGE_TEXT1 = In a favorable position near %X%.
-ROOMAGENCY_ROOM_SUPERMARKET_IN_RANGE_TEXT1 = Convenient: just around the corner there is the %X%.
-ROOMAGENCY_ROOM_SCRIPTAGENCY_IN_RANGE_TEXT1 = Just a short hop from the %X%.
-ROOMAGENCY_ROOM_OFFICE_IN_RANGE_TEXT1 = Nearby your own office!
+ROOMAGENCY_ROOM_X_IN_RANGE_TEXT1 = %X% yanında, mükemmel konum.
+ROOMAGENCY_ROOM_SUPERMARKET_IN_RANGE_TEXT1 = Hemen köşede; %X%.
+ROOMAGENCY_ROOM_SCRIPTAGENCY_IN_RANGE_TEXT1 = %X% odasından bir adım sonra.
+ROOMAGENCY_ROOM_OFFICE_IN_RANGE_TEXT1 = Ofisinizin yanında!
 
-ROOMAGENCY_AVAILABLE_FOR_RENT_OF_X_PER_DAY = Available for just |b|%X%/gameday|/b|.
-ROOMAGENCY_SIGNING_WILL_COST_A_SINGLE_PAYMENT_OF_X = Signing will cost a single payment of |b|%X%|/b|.
+ROOMAGENCY_AVAILABLE_FOR_RENT_OF_X_PER_DAY = Sadece |b|%X%/gameday|/b| için uygun.
+ROOMAGENCY_SIGNING_WILL_COST_A_SINGLE_PAYMENT_OF_X = İmza, |b|%X%|/b| meblağında tek ödeme gerektiriyor.
 
-ROOMAGENCY_ROOM_CURRENTLY_NOT_AVAILABLE_BUT_THIS_MIGHT_CHANGE1 = This room is still rented, but with a nice advice the tenant could release the room.
-ROOMAGENCY_ROOM_CURRENTLY_NOT_AVAILABLE_BUT_THIS_MIGHT_CHANGE2 = This room is still rented, but with a little persuasion, the tenant might well be willed to cancel this room rental.
+ROOMAGENCY_ROOM_CURRENTLY_NOT_AVAILABLE_BUT_THIS_MIGHT_CHANGE1 = Yeni kiralandı ve kiracı iyi bir teklife vazgeçebilir.
+ROOMAGENCY_ROOM_CURRENTLY_NOT_AVAILABLE_BUT_THIS_MIGHT_CHANGE2 = Yeni kiralandı, ama küçük bir ikna ile kiracı kontratı iptal edebilir.
 
-PLAYER_WENT_BANKRUPT = Player went bankrupt.
-PLAYER_X_FROM_CHANNEL_Y_WENT_BANKRUPT1 = Player %X% of channel %Y% did not play well enough and went bankrupt.
-PLAYER_X_FROM_CHANNEL_Y_WENT_BANKRUPT2 = Player %X% of channel %Y% hopefully has a contingency plan as they just went bankrupt.
-PLAYER_X_FROM_CHANNEL_Y_WENT_BANKRUPT3 = Channel %Y% went bankrupt. Old manager %X% got fired for incompetence.
-PLAYER_WILL_START_AGAIN = Player will start again.
-AI_WILL_TAKE_OVER_THIS_PLAYER = AI will take over this player.
+PLAYER_WENT_BANKRUPT = Oyuncu iflas etti.
+PLAYER_X_FROM_CHANNEL_Y_WENT_BANKRUPT1 = Oyuncu %X% (Kanal %Y%) iyi oynayamadı ve iflas etti.
+PLAYER_X_FROM_CHANNEL_Y_WENT_BANKRUPT2 = Oyuncu %X% (Kanal %Y%) beklenmedik bir durum yaşadı ve iflas etti.
+PLAYER_X_FROM_CHANNEL_Y_WENT_BANKRUPT3 = Kanal %Y% iflas etti. Oyuncu %X% atıldı.
+PLAYER_WILL_START_AGAIN = Oyuncu tekrar başlayacak.
+AI_WILL_TAKE_OVER_THIS_PLAYER = AI, oyuncunun yerine geçiyor.
 
-GENDER_MEN = Men
-GENDER_WOMEN = Women
-GENDER_ALL = All
+GENDER_MEN = Erkek
+GENDER_WOMEN = Kadın
+GENDER_ALL = Tüm
